@@ -1,4 +1,1 @@
-ouluweb.github.com
-==================
-
-Ouluweb github page. Yay!
+Frontend Friday / Oulu (upcoming) website.
