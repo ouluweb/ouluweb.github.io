@@ -38,6 +38,12 @@ body {
 
     font-style : italic;
     font-weight : 700;
+
+    // Not the best place
+    h1 {
+        text-shadow : 0 1px 0 #fff;
+    }
+
 }
 
 

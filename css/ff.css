@@ -4067,8 +4067,12 @@ body {
   font-style: italic;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000343}}
+.banner h1 {
+  text-shadow: 0 1px 0 white;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000352}}
 .main {
   width: 90%;
   max-width: 80em;
