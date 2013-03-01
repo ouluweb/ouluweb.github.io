@@ -4062,9 +4062,12 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000334}}
 .banner {
   text-align: center;
+  padding: 2em 0;
+  font-style: italic;
+  font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000345}}
 .main {
   width: 90%;
   max-width: 80em;
