@@ -14,7 +14,8 @@
 /**
  * Setup
  */
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600);
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic);*/
 @import "vars";
 @import "inuit.css/inuit";
 @import "typeplate";
@@ -26,7 +27,7 @@
 
 
 body {
-    background : #d8ebe1 url(assets/images/100-90-5.png) repeat 0 0;
+    background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;
 }
 
 

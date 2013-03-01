@@ -34,13 +34,13 @@ $line-height: 1.65;
 $font-size: 112.5; // percentage value (16 * 112.5% = 18px)
 $font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
 $measure: $font-base * $line-height;
-$font-family: 'Droid Serif', serif;
-$font-family-sans: sans-serif;
+$font-family: serif;
+$font-family-sans: 'Titillium web', sans-serif;
 $font-properties: $weight, $line-height, $font-size, $font-family;
 
 //the serif boolean var can be redeclared from another stylesheet. However
 //the var must be placed after your @import "typeplate.scss";
-$serif-boolean: true !default;
+$serif-boolean: false !default;
 
 
 // $C o l o r

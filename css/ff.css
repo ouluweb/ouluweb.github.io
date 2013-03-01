@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600);
 /*------------------------------------*\
     STYLE.CSS
 \*------------------------------------*/
@@ -13,6 +13,7 @@
 /**
  * Setup
  */
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic);*/
 /*------------------------------------*\
     $VARS
 \*------------------------------------*/
@@ -3735,7 +3736,7 @@ pre code {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003376}}
 html {
-  font: normal 112.5%/1.65 "Droid Serif", serif;
+  font: normal 112.5%/1.65 "Titillium web", sans-serif;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003380}}
@@ -4054,12 +4055,12 @@ h6 {
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000329}}
 body {
-  background: #d8ebe1 url(assets/images/100-90-5.png) repeat 0 0;
+  background: #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000335}}
 .banner {
   text-align: center;
   padding: 2em 0;
@@ -4067,7 +4068,7 @@ body {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000346}}
 .main {
   width: 90%;
   max-width: 80em;
