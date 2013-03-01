@@ -15,6 +15,7 @@
  * Setup
  */
 @import "vars";
+@import "typeplate";
 @import "inuit.css/inuit";
 
 
@@ -25,7 +26,6 @@
 
 body {
     background : #bada55 url(assets/images/100-90-5.png) repeat 0 0;
-    color : #333;
 }
 
 .main {
