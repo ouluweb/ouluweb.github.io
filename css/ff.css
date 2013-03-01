@@ -411,7 +411,7 @@ label, input, textarea, button, select, option { cursor: pointer; }
 \*------------------------------------*/
 /** Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php Extend the clearfix class with Sass to avoid the `.cf` class appearing over and over in your markup. */
 /* line 10, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_clearfix.scss */
-.cf:after, .gw:after, .grid-wrapper:after, .nav:after, .media:after, .island:after, .islet:after, .matrix:after, .multi-list:after, .stat-group:after { content: ""; display: table; clear: both; }
+.cf:after, .gw:after, .grid-wrapper:after, .nav:after, .media:after, .island:after, .islet:after, .matrix:after, .multi-list:after { content: ""; display: table; clear: both; }
 
 /*------------------------------------*\ $SHARED
 \*------------------------------------*/
@@ -440,41 +440,7 @@ ul, ol, dd { margin-left: 48px; margin-left: 3rem; }
 /* line 4, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_main.scss */
 html { font: 1em/1.5 serif; overflow-y: scroll; min-height: 100%; }
 
-/*------------------------------------*\ $HEADINGS
-\*------------------------------------*/
-/** As per: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css  When we define a heading we also define a corresponding class to go with it. This allows us to apply, say, `class=alpha` to a `h3`; a double-stranded heading hierarchy. */
-/* line 11, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h1, .alpha, h1 { font-size: 36px; font-size: 2.25rem; line-height: 1.33333; }
-
-/* line 14, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h2, .beta, h2 { font-size: 30px; font-size: 1.875rem; line-height: 1.6; }
-
-/* line 17, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h3, .gamma, h3 { font-size: 24px; font-size: 1.5rem; line-height: 1; }
-
-/* line 20, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h4, .delta, h4 { font-size: 20px; font-size: 1.25rem; line-height: 1.2; }
-
-/* line 23, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h5, .epsilon, h5 { font-size: 16px; font-size: 1rem; line-height: 1.5; }
-
-/* line 26, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-h6, .zeta, h6 { font-size: 14px; font-size: 0.875rem; line-height: 1.71429; }
-
-/** Heading groups and generic any-heading class. To target any heading of any level simply apply a class of `.hN`, e.g.:  <hgroup> <h1 class=hN>inuit.css</h1> <h2 class=hN>Best. Framework. Ever!</h2> </hgroup>  */
-/* line 43, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-hgroup .hN { margin-bottom: 0; }
-
-/** A series of classes for setting massive type; for use in heroes, mastheads, promos, etc. */
-/* line 52, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-.giga { font-size: 96px; font-size: 6rem; line-height: 1; }
-
-/* line 55, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-.mega { font-size: 72px; font-size: 4.5rem; line-height: 1; }
-
-/* line 58, /Users/tommi/Projects/FrontendFriday/css/inuit.css/base/_headings.scss */
-.kilo { font-size: 48px; font-size: 3rem; line-height: 1; }
-
+/*@import "base/headings";*/
 /*------------------------------------*\ $PARAGRAPHS
 \*------------------------------------*/
 /** The `.lede` class is used to make the introductory text (usually a paragraph) of a document slightly larger. */
@@ -812,40 +778,8 @@ label, .label { display: block; }
 /* line 93, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_grids.scss */
 .g, .grid { float: left; padding-left: 24px; }
 
-/*------------------------------------*\ $FLEXBOX
-\*------------------------------------*/
-/** Until we can utilise flexbox natively we can kinda, sorta, attempt to emulate it, in a way... e.g.:  <header class=flexbox>
- <div class=flexbox__item> <b>Welcome to</b> </div>
- <div class=flexbox__item> <img src="//csswizardry.com/inuitcss/img/logo.jpg" alt="inuit.css"> </div>
- </header>  We can also combine our grid system classes with `.flexbox__item` classes, e.g.:  <div class=flexbox> <div class="flexbox__item  one-quarter"> </div> <div class="flexbox__item  three-quarters"> </div> </div>  It’s pretty poorly named I’m afraid, but it works…  Demo: jsfiddle.net/inuitcss/ufUh2  */
-/* line 35, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flexbox.scss */
-.flexbox { display: table; width: 100%; }
-
-/** Nasty hack to circumvent Modernizr conflicts. */
-/* line 43, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flexbox.scss */
-html.flexbox { display: block; width: auto; }
-
-/* line 48, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flexbox.scss */
-.flexbox__item { display: table-cell; vertical-align: middle; }
-
-/*------------------------------------*\ $COLUMNS
-\*------------------------------------*/
-/** Here we can set elements in columns of text using CSS3, e.g.:  <p class=text-cols--2>  Demo: jsfiddle.net/inuitcss/E26Yd  */
-/* line 12, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_columns.scss */
-.text-cols--2, .text-cols--3, .text-cols--4, .text-cols--5 { -webkit-column-gap: 24px; -moz-column-gap: 24px; -ms-column-gap: 24px; -o-column-gap: 24px; column-gap: 24px; }
-
-/* line 15, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_columns.scss */
-.text-cols--2 { -webkit-column-count: 2; -moz-column-count: 2; -ms-column-count: 2; -o-column-count: 2; column-count: 2; }
-
-/* line 16, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_columns.scss */
-.text-cols--3 { -webkit-column-count: 3; -moz-column-count: 3; -ms-column-count: 3; -o-column-count: 3; column-count: 3; }
-
-/* line 17, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_columns.scss */
-.text-cols--4 { -webkit-column-count: 4; -moz-column-count: 4; -ms-column-count: 4; -o-column-count: 4; column-count: 4; }
-
-/* line 18, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_columns.scss */
-.text-cols--5 { -webkit-column-count: 5; -moz-column-count: 5; -ms-column-count: 5; -o-column-count: 5; column-count: 5; }
-
+/*@import "objects/flexbox";*/
+/*@import "objects/columns";*/
 /*------------------------------------*\ $NAV
 \*------------------------------------*/
 /** Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction When used on an `ol` or `ul`, this class throws the list into horizontal mode e.g.:  <ul class=nav> <li><a href=#>Home</a></li> <li><a href=#>About</a></li> <li><a href=#>Portfolio</a></li> <li><a href=#>Contact</a></li> </ul>  Demo: jsfiddle.net/inuitcss/Vnph4  */
@@ -914,24 +848,7 @@ html.flexbox { display: block; width: auto; }
 /* line 44, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_pagination.scss */
 .pagination__last a:after { content: " »"; }
 
-/*------------------------------------*\ $BREADCRUMB
-\*------------------------------------*/
-/** Simple breadcrumb styling to apply to (ordered) lists. Extends `.nav`, e.g.:  <ol class="nav  breadcrumb"> <li><a href=#>Home</a></li> <li><a href=#>About</a></li> <li><a href=#>The Board</a></li> <li class=current><a href=#>Directors</a></li> </ol>  Demo: jsfiddle.net/inuitcss/rkAY9  */
-/* line 17, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_breadcrumb.scss */
-.breadcrumb > li + li:before { content: "» "; }
-
-/** For denoting a path-like structure, GitHub style, e.g.:  <ol class="nav  breadcrumb--path"> <li class=breadcrumb__root><a href=#>inuit.css</a></li> <li><a href=#>inuit.css</a></li> <li><a href=#>partials</a></li> <li class=current><a href=#>objects</a></li> </ol>  */
-/* line 33, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_breadcrumb.scss */
-.breadcrumb--path > li + li:before { content: "/ "; }
-
-/** Assign a delimiter on the fly through a data attribute, e.g.:  <ol class="nav  breadcrumb"> <li><a href=#>Home</a></li> <li data-breadcrumb="|"><a href=#>About</a></li> <li data-breadcrumb="|"><a href=#>The Board</a></li> <li data-breadcrumb="|" class=current><a href=#>Directors</a></li> </ol>  */
-/* line 49, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_breadcrumb.scss */
-.breadcrumb > li + li[data-breadcrumb]:before { content: attr(data-breadcrumb) " "; }
-
-/** Denote the root of the tree. */
-/* line 57, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_breadcrumb.scss */
-.breadcrumb__root { font-weight: bold; }
-
+/*@import "objects/breadcrumb";*/
 /*------------------------------------*\ $MEDIA
 \*------------------------------------*/
 /** Place any image- and text-like content side-by-side, as per: stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code E.g.:  <div class=media> <img src=http://placekitten.com/200/300 alt="" class=media__img> <p class=media__body>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>  Demo: jsfiddle.net/inuitcss/cf4Qs  */
@@ -1054,15 +971,7 @@ html.flexbox { display: block; width: auto; }
 /* line 31, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_split.scss */
 .split__title { text-align: left; float: left; clear: left; }
 
-/*------------------------------------*\ $THIS-OR-THIS
-\*------------------------------------*/
-/** Simple options object to provide multiple choices, e.g.:  <h1 class=this-or-this> <a href=# class="this-or-this__this  two-fifths"> Free </a> <span class="this-or-this__or  one-fifth"> or </span> <a href=# class="this-or-this__this  two-fifths"> Pro </a> </h1>  The `.this-or-this__this` and `.this-or-this__or` objects can be sized using the grid-system classes.  Demo: jsfiddle.net/inuitcss/R3sks  */
-/* line 25, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_this-or-this.scss */
-.this-or-this { display: table; width: 100%; text-align: center; }
-
-/* line 31, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_this-or-this.scss */
-.this-or-this__this, .this-or-this__or { display: table-cell; vertical-align: middle; }
-
+/*@import "objects/this-or-this";*/
 /*------------------------------------*\ $LINK-COMPLEX
 \*------------------------------------*/
 /** As inspired by @necolas: github.com/necolas/suit-utils/blob/master/link.css#L18  Add hover behaviour to only selected items within links, e.g.:  <a href=log-in class=link-complex> <i class="s  s--user"></i> <span class=link-complex__target>Log in</span> </a>  Demo: jsfiddle.net/inuitcss/rt9M3  */
@@ -1072,59 +981,13 @@ html.flexbox { display: block; width: auto; }
 /* line 26, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_link-complex.scss */
 .link-complex:hover .link-complex__target, .link-complex:active .link-complex__target, .link-complex:focus .link-complex__target { text-decoration: underline; }
 
-/*------------------------------------*\ $FLYOUT
-\*------------------------------------*/
-/** Flyouts are pieces of content that fly out of a parent when said parent is hovered. They typically appear bottom-left of the parent.  <div class=flyout> Foo <div class=flyout__content> <h1>Lorem</h1> <p>Ipsum</p> </div> </div>  Extend these objects in your theme stylesheet.  Demo: jsfiddle.net/inuitcss/B52HG  */
-/* line 22, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flyout.scss */
-.flyout, .flyout--alt { position: relative; overflow: hidden; }
-
-/* line 26, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flyout.scss */
-.flyout__content { /** Position the flyouts off-screen. This is typically better than `display:none;`. */ position: absolute; top: 100%; left: -99999px; }
-
-/** Bring the flyouts into view when you hover their parents. Two different types of flyout; ‘regular’ (`.flyout`) and ‘alternative’ (`.flyout--alt`). */
-/* line 42, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flyout.scss */
-.flyout:hover, .flyout--alt:hover { overflow: visible; }
-
-/** Regular flyouts sit all the way from the top, flush left. */
-/* line 49, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flyout.scss */
-.flyout:hover > .flyout__content { left: 0; }
-
-/** Alternative flyouts sit all the way from the left, flush top. */
-/* line 56, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_flyout.scss */
-.flyout--alt:hover > .flyout__content { top: 0; left: 100%; }
-
+/*@import "objects/flyout";*/
 /*------------------------------------*\ $ARROWS
 \*------------------------------------*/
 /** It is a common design treatment to give an element a triangular points-out arrow, we typically build these with CSS. These following classes allow us to generate these arbitrarily with a mixin, `@arrow()`. */
 /** Forms the basis for any/all CSS arrows. */
 /** Define individual edges so we can combine what we need, when we need. */
-/*------------------------------------*\ $SPRITE
-\*------------------------------------*/
-/** Giving an element a class of `.s` will throw it into ‘sprite’ mode and apply a background image e.g.:  <a class="s  s--question-mark">More info&hellip;</a>  or  <a href=#><i class="s  s--question-mark"></i> Help and FAQ</a>  Giving an element a class of `.i` will throw it into ‘icon’ mode and will not add a background, but should be used for icon fonts and is populated through a `data-icon` attribute and the `:after` pseudo-element, e.g.:  <a href=#><i class=i data-icon="&#xF000;"></i> View your favourites</a>  Where ‘&#xF000;’ might map to a star in your particular font.  These all require extension in your theme stylesheet.  Demo: jsfiddle.net/inuitcss/6TKuS  */
-/* line 28, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.s, .i { display: inline-block; line-height: 1; position: relative; vertical-align: middle; zoom: 1; /** So using `.i` on certain elements doesn’t make a visual difference. */ font-style: normal; font-weight: normal; /** So icons added using `.i` sit in the centre of the element. */ text-align: center; }
-
-/* line 44, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.s { background-image: url(/path/to/your/sprite.png); /** The typical size of most icons. Override in your theme stylesheet. */ width: 16px; height: 16px; top: -1px; /* H5BP method image replacement: github.com/h5bp/html5-boilerplate/commit/adecc5da035d6d76b77e3fa95c6abde841073da2 */ overflow: hidden; *text-indent: -9999px; }
-/* line 60, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.s:before { content: ""; display: block; width: 0; height: 100%; }
-
-/** Set up Batch icon font */
-/* line 71, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.i { font-size: 16px; /** Place the icon in a box the exact same dimensions as the icon itself. */ width: 1em; height: 1em; }
-/* line 82, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.i:before { content: attr(data-icon); }
-
-/** Icon size modifiers. */
-/* line 90, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.i--large { font-size: 32px; }
-
-/* line 91, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.i--huge { font-size: 64px; }
-
-/* line 92, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_sprite.scss */
-.i--natural { font-size: inherit; }
-
+/*@import "objects/sprite";*/
 /*------------------------------------*\ $ICON-TEXT
 \*------------------------------------*/
 /** For text-links etc that have an icon with them. Sometimes whitespace would suffice in creating a gap between the icon and text, for example:  <a href=#> <i class="s  s--help"></i> Help &amp; support </a>  However we will sometimes want a larger, explicity set gap: <a href=# class=icon-text> <i class="icon-text__icon  s  s--help"></i>Help &amp; support </a>  Demo: jsfiddle.net/inuitcss/Q6Lbf  */
@@ -1154,15 +1017,7 @@ html.flexbox { display: block; width: auto; }
 /* line 34, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_buttons.scss */
 .btn--full { display: block; text-align: center; /** The following is so that `.btn-full` works properly on `input`s as well as `a`s. */ padding-right: 0; padding-left: 0; width: 100%; }
 
-/*------------------------------------*\ $LOZENGES
-\*------------------------------------*/
-/** Create pill- and lozenge-like runs of text, e.g.:  <p>This <span class=pill>here</span> is a pill!</p>  <p>This <span class=loz>here</span> is also a lozenge!</p>  Pills have fully rounded ends, lozenges have only their corners rounded.  Demo: jsfiddle.net/inuitcss/N3pGm  */
-/* line 16, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_lozenges.scss */
-.pill, .loz { display: inline-block; /** These numbers set in ems mean that, at its narrowest, a lozenge will be the same width as the `line-height` set on the `html` element. This allows us to use the `.loz` in almost any `font-size` we wish. */ min-width: 1.0em; padding-right: 0.25em; padding-left: 0.25em; /* =1.50em */ text-align: center; background-color: #ccc; /* Override this color in your theme stylesheet */ color: #fff; /* Override this color in your theme stylesheet */ /** Normally we’d use border-radius:100%; but instead here we just use an overly large number; `border-radius:100%;` would create an oval on non-square elements whereas we just want to round the ends of an element. */ border-radius: 100px; }
-
-/* line 39, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_lozenges.scss */
-.loz { border-radius: 4px; }
-
+/*@import "objects/lozenges";*/
 /*------------------------------------*\ $RULES
 \*------------------------------------*/
 /** Horizontal rules, extend `hr`.  Demo: jsfiddle.net/inuitcss/L6GuZ  */
@@ -1189,23 +1044,7 @@ html.flexbox { display: block; width: auto; }
 /* line 58, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_rules.scss */
 .rule--ornament[data-ornament]:after { content: attr(data-ornament); }
 
-/*------------------------------------*\ $STATS
-\*------------------------------------*/
- /** Simple object to display key–value statistic-like information, e.g.:  <div class=stat-group> <dl class=stat> <dt class=stat__title>Tweets</dt> <dd class=stat__value>27,740</dd> </dl>
- <dl class=stat> <dt class=stat__title>Following</dt> <dd class=stat__value>11,529</dd> </dl>
- <dl class=stat> <dt class=stat__title>Followers</dt> <dd class=stat__value>12,105</dd> </dl> </div>  Demo: jsfiddle.net/inuitcss/Bpwu6  */
-/* line 27, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_stats.scss */
-.stat-group { margin-left: -24px; }
-
-/* line 31, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_stats.scss */
-.stat { float: left; margin-left: 24px; display: -ms-flexbox; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
-
-/* line 40, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_stats.scss */
-.stat__title { -webkit-order: 2; -moz-order: 2; -ms-order: 2; -o-order: 2; order: 2; -ms-flex-order: 2; }
-
-/* line 44, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_stats.scss */
-.stat__value { margin-left: 0; -webkit-order: 1; -moz-order: 1; -ms-order: 1; -o-order: 1; order: 1; -ms-flex-order: 1; }
-
+/*@import "objects/stats";*/
 /*------------------------------------*\ $GREYBOX
 \*------------------------------------*/
 /** Quickly throw together greybox wireframes. Use in conjunction with other inuit.css objects to create simple greybox prototypes, e.g.:  <div class="island  greybox  greybox--medium">Header</div>
@@ -1232,8 +1071,7 @@ html.flexbox { display: block; width: auto; }
 /* line 54, /Users/tommi/Projects/FrontendFriday/css/inuit.css/objects/_greybox.scss */
 .greybox--gigantic, .graybox--gigantic { line-height: 768px; }
 
-/*------------------------------------*\ $BATCH
-\*------------------------------------*/
+/*@import "objects/batch";*/
 /** Style trumps; helper and brand classes */
 /*------------------------------------*\ $WIDTHS
 \*------------------------------------*/
@@ -1568,184 +1406,8 @@ html.flexbox { display: block; width: auto; }
   .desk-eleven-twelfths { width: 91.666%; } }
 /** If you have set the additional `$responsive-extra` variable to ‘true’ in `_vars.scss` then you now have access to the following class available to accomodate much larger screen resolutions. */
 /* endif */
-/*------------------------------------*\ $PUSH
-\*------------------------------------*/
-/** Push classes, to move grid items over to the right by certain amounts. */
-/** Not a particularly great selector, but the DRYest way to do things. */
-/* line 11, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-[class*="push--"] { position: relative; }
-
-/** Whole */
-/* line 18, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-whole { left: 100%; }
-
-/** Halves */
-/* line 24, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-half, .push--two-quarters, .push--three-sixths, .push--four-eighths, .push--five-tenths, .push--six-twelfths { left: 50%; }
-
-/** Thirds */
-/* line 30, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-third, .push--two-sixths, .push--four-twelfths { left: 33.333%; }
-
-/* line 31, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--two-thirds, .push--four-sixths, .push--eight-twelfths { left: 66.666%; }
-
-/** Quarters */
-/* line 37, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-quarter, .push--two-eighths, .push--three-twelfths { left: 25%; }
-
-/* line 39, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--three-quarters, .push--six-eighths, .push--nine-twelfths { left: 75%; }
-
-/** Fifths */
-/* line 45, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-fifth, .push--two-tenths { left: 20%; }
-
-/* line 46, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--two-fifths, .push--four-tenths { left: 40%; }
-
-/* line 47, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--three-fifths, .push--six-tenths { left: 60%; }
-
-/* line 48, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--four-fifths, .push--eight-tenths { left: 80%; }
-
-/** Sixths */
-/* line 54, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-sixth, .push--two-twelfths { left: 16.666%; }
-
-/* line 58, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--five-sixths, .push--ten-twelfths { left: 83.333%; }
-
-/** Eighths */
-/* line 64, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-eighth { left: 12.5%; }
-
-/* line 66, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--three-eighths { left: 37.5%; }
-
-/* line 68, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--five-eighths { left: 62.5%; }
-
-/* line 70, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--seven-eighths { left: 87.5%; }
-
-/** Tenths */
-/* line 76, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-tenth { left: 10%; }
-
-/* line 78, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--three-tenths { left: 30%; }
-
-/* line 82, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--seven-tenths { left: 70%; }
-
-/* line 84, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--nine-tenths { left: 90%; }
-
-/** Twelfths */
-/* line 90, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--one-twelfth { left: 8.333%; }
-
-/* line 94, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--five-twelfths { left: 41.666%; }
-
-/* line 96, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--seven-twelfths { left: 58.333%; }
-
-/* line 100, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_push.scss */
-.push--eleven-twelfths { left: 91.666%; }
-
-/* endif */
-/*------------------------------------*\ $PULL
-\*------------------------------------*/
-/** Pull classes, to move grid items over to the right by certain amounts. */
-/** Not a particularly great selector, but the DRYest way to do things. */
-/* line 11, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-[class*="pull--"] { position: relative; }
-
-/** Whole */
-/* line 18, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-whole { right: 100%; }
-
-/** Halves */
-/* line 24, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-half, .pull--two-quarters, .pull--three-sixths, .pull--four-eighths, .pull--five-tenths, .pull--six-twelfths { right: 50%; }
-
-/** Thirds */
-/* line 30, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-third, .pull--two-sixths, .pull--four-twelfths { right: 33.333%; }
-
-/* line 31, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--two-thirds, .pull--four-sixths, .pull--eight-twelfths { right: 66.666%; }
-
-/** Quarters */
-/* line 37, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-quarter, .pull--two-eighths, .pull--three-twelfths { right: 25%; }
-
-/* line 39, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--three-quarters, .pull--six-eighths, .pull--nine-twelfths { right: 75%; }
-
-/** Fifths */
-/* line 45, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-fifth, .pull--two-tenths { right: 20%; }
-
-/* line 46, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--two-fifths, .pull--four-tenths { right: 40%; }
-
-/* line 47, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--three-fifths, .pull--six-tenths { right: 60%; }
-
-/* line 48, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--four-fifths, .pull--eight-tenths { right: 80%; }
-
-/** Sixths */
-/* line 54, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-sixth, .pull--two-twelfths { right: 16.666%; }
-
-/* line 58, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--five-sixths, .pull--ten-twelfths { right: 83.333%; }
-
-/** Eighths */
-/* line 64, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-eighth { right: 12.5%; }
-
-/* line 66, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--three-eighths { right: 37.5%; }
-
-/* line 68, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--five-eighths { right: 62.5%; }
-
-/* line 70, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--seven-eighths { right: 87.5%; }
-
-/** Tenths */
-/* line 76, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-tenth { right: 10%; }
-
-/* line 78, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--three-tenths { right: 30%; }
-
-/* line 82, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--seven-tenths { right: 70%; }
-
-/* line 84, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--nine-tenths { right: 90%; }
-
-/** Twelfths */
-/* line 90, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--one-twelfth { right: 8.333%; }
-
-/* line 94, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--five-twelfths { right: 41.666%; }
-
-/* line 96, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--seven-twelfths { right: 58.333%; }
-
-/* line 100, /Users/tommi/Projects/FrontendFriday/css/inuit.css/generic/_pull.scss */
-.pull--eleven-twelfths { right: 91.666%; }
-
-/* endif */
+/*@import "generic/push";*/
+/*@import "generic/pull";*/
 /*------------------------------------*\ $BRAND
 \*------------------------------------*/
 /** `.brand` is a quick and simple way to apply your brand face and/or color to any element using a handy helper class. */

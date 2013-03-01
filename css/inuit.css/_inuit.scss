@@ -154,7 +154,7 @@
  * Base styles; unclassed HTML elements etc.
  */
    @import "base/main";
-   @import "base/headings";
+   /*@import "base/headings";*/
    @import "base/paragraphs";
    @import "base/smallprint";
    @import "base/quotes";
@@ -172,12 +172,12 @@
  * Single-line comment (//) out any objects you do not need in your project.
  */
    @import "objects/grids";
-   @import "objects/flexbox";
-   @import "objects/columns";
+   /*@import "objects/flexbox";*/
+   /*@import "objects/columns";*/
    @import "objects/nav";
    @import "objects/options";
    @import "objects/pagination";
-   @import "objects/breadcrumb";
+   /*@import "objects/breadcrumb";*/
    @import "objects/media";
    @import "objects/marginalia";
    @import "objects/island";
@@ -185,26 +185,26 @@
    @import "objects/matrix";
    @import "objects/split";
 // @import "example/unnecessary/file";
-   @import "objects/this-or-this";
+   /*@import "objects/this-or-this";*/
    @import "objects/link-complex";
-   @import "objects/flyout";
+   /*@import "objects/flyout";*/
    @import "objects/arrows";
-   @import "objects/sprite";
+   /*@import "objects/sprite";*/
    @import "objects/icon-text";
    @import "objects/buttons";
-   @import "objects/lozenges";
+   /*@import "objects/lozenges";*/
    @import "objects/rules";
-   @import "objects/stats";
+   /*@import "objects/stats";*/
    @import "objects/greybox";
-   @import "objects/batch";
+   /*@import "objects/batch";*/
 
 
 /**
  * Style trumps; helper and brand classes
  */
    @import "generic/widths";
-   @import "generic/push";
-   @import "generic/pull";
+   /*@import "generic/push";*/
+   /*@import "generic/pull";*/
    @import "generic/brand";
    @import "generic/helper";
    @import "generic/debug";
