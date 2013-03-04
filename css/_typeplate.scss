@@ -46,8 +46,8 @@ $serif-boolean: false !default;
 // $C o l o r
 // --------------------------------------------------------------------------
 
-$body-copy-color: #444;
-$heading-color: #222;
+$body-copy-color: #000;
+$heading-color: #000;
 
 
 // $A M P E R S A N D  @font-face
@@ -69,15 +69,15 @@ $amp-font-family: Verdana, sans-serif;
 // $T y p e  S c a l e
 // --------------------------------------------------------------------------
 
-$tera: 117;		//	117	= 18 × 6.5
-$giga: 90;		//	90  = 18 × 5
-$mega: 72;		//	72  = 18 × 4
-$alpha: 60;		//	60  = 18 × 3.3333
-$beta: 48;		//	48  = 18 × 2.6667
-$gamma: 36;		//	36  = 18 × 2
-$delta: 24;		//	24  = 18 × 1.3333
-$epsilon: 21;	//	21  = 18 × 1.1667
-$zeta: 18; 		//	18  = 18 × 1
+$tera: 117;     //  117 = 18 × 6.5
+$giga: 90;      //  90  = 18 × 5
+$mega: 72;      //  72  = 18 × 4
+$alpha: 60;     //  60  = 18 × 3.3333
+$beta: 48;      //  48  = 18 × 2.6667
+$gamma: 36;     //  36  = 18 × 2
+$delta: 24;     //  24  = 18 × 1.3333
+$epsilon: 21;   //  21  = 18 × 1.1667
+$zeta: 18;      //  18  = 18 × 1
 
 
 // $T y p e  S c a l e  U n i t
@@ -115,16 +115,16 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 @font-face {
-	font-family: '#{$amp-fontface-name}';
-	src: $amp-fontface-source;
-	unicode-range: U+0026;
+    font-family: '#{$amp-fontface-name}';
+    src: $amp-fontface-source;
+    unicode-range: U+0026;
 }
 
 // Ampersand fallback font for unicode range
 @font-face {
-	font-family: '#{$amp-fontface-name}';
-	src: $amp-fontface-fallback;
-	unicode-range: U+270C;
+    font-family: '#{$amp-fontface-name}';
+    src: $amp-fontface-fallback;
+    unicode-range: U+270C;
 }
 
 
@@ -140,7 +140,7 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 @function ems($target, $context) {
-	@return ($target/$context)#{em};
+    @return ($target/$context)#{em};
 }
 
 
@@ -149,13 +149,13 @@ $stats-border-style: 0.125rem solid #ccc;
 // http://thesassway.com/projects/modular-scale
 
 @function modular-scale($scale, $base, $value) {
-	// divide a given font-size by base font-size & return a relative em value
-	@return ($scale/$base)#{$value};
+    // divide a given font-size by base font-size & return a relative em value
+    @return ($scale/$base)#{$value};
 }
 
 @function measure-margin($scale, $measure, $value) {
-	// divide 1 unit of measure by given font-size & return a relative em value
-	@return ($measure/$scale)#{$value};
+    // divide 1 unit of measure by given font-size & return a relative em value
+    @return ($measure/$scale)#{$value};
 }
 
 
@@ -172,11 +172,11 @@ $stats-border-style: 0.125rem solid #ccc;
 
 // $Typographic scale
 @mixin modular-scale($scale, $base, $value, $measure:"") {
-	font-size: $scale#{px};
-	font-size: modular-scale($scale, $base, $value);
-	@if $measure != "" {
-		margin-bottom: measure-margin($scale, $measure, $value);
-	}
+    font-size: $scale#{px};
+    font-size: modular-scale($scale, $base, $value);
+    @if $measure != "" {
+        margin-bottom: measure-margin($scale, $measure, $value);
+    }
 }
 
 
@@ -184,11 +184,11 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 @mixin base-type($weight, $line-height, $font-size, $font-family...) {
-	@if $serif-boolean {
-		font: $weight #{$font-size}%/#{$line-height} $font-family;
-	}@else {
-		font: $weight #{$font-size}%/#{$line-height} $font-family-sans;
-	}
+    @if $serif-boolean {
+        font: $weight #{$font-size}%/#{$line-height} $font-family;
+    }@else {
+        font: $weight #{$font-size}%/#{$line-height} $font-family-sans;
+    }
 }
 
 
@@ -197,11 +197,11 @@ $stats-border-style: 0.125rem solid #ccc;
 //http://trentwalton.com/2011/09/07/css-hyphenation
 
 @mixin css-hyphens($val) {
-	// Accepted values: [ none | manual | auto ]
-	-webkit-hyphens: $val;	// Safari 5.1 thru 6, iOS 4.2 thru 6
-	-moz-hyphens: $val;		// Firefox 16 thru 20
-	-ms-hyphens: $val;		// IE10
-	hyphens: $val;			// W3C standard
+    // Accepted values: [ none | manual | auto ]
+    -webkit-hyphens: $val;  // Safari 5.1 thru 6, iOS 4.2 thru 6
+    -moz-hyphens: $val;     // Firefox 16 thru 20
+    -ms-hyphens: $val;      // IE10
+    hyphens: $val;          // W3C standard
 };
 
 
@@ -211,13 +211,13 @@ $stats-border-style: 0.125rem solid #ccc;
 // ISSUE#1 : https://github.com/zakkain/web-thang/issues/1
 
 @mixin smallcaps($color, $font-weight) {
-	// depends on the font family.
-	// some font-families don't support small caps
-	// or don't provide them with their web font.
-	font-variant: small-caps;
-	font-weight: $font-weight;
-	text-transform: lowercase;
-	color: $color;
+    // depends on the font family.
+    // some font-families don't support small caps
+    // or don't provide them with their web font.
+    font-variant: small-caps;
+    font-weight: $font-weight;
+    text-transform: lowercase;
+    color: $color;
 }
 
 
@@ -228,8 +228,8 @@ $stats-border-style: 0.125rem solid #ccc;
 // wisely grasshopper.
 
 @mixin font-size-adjust($adjust-value) {
-	// firefox 17+ only (as of Feb. 2013)
-	font-size-adjust: $adjust-value;
+    // firefox 17+ only (as of Feb. 2013)
+    font-size-adjust: $adjust-value;
 }
 
 
@@ -237,11 +237,11 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 @mixin ampersand($amp-font-family...) {
-	font-family: $amp-font-family;
+    font-family: $amp-font-family;
 }
 
 %ampersand-placeholder {
-	@include ampersand($amp-fontface-name, $amp-font-family);
+    @include ampersand($amp-fontface-name, $amp-font-family);
 }
 
 // Call your ampersand on any element you wish from another stylesheet
@@ -259,15 +259,15 @@ $stats-border-style: 0.125rem solid #ccc;
 // arbitrary points if there are no otherwise acceptable break points in the line.
 
 %breakword {
-	word-wrap: breakword;
+    word-wrap: breakword;
 }
 
 %normal-wrap {
-	word-wrap: normal;
+    word-wrap: normal;
 }
 
 %inherit-wrap {
-	word-wrap: auto;
+    word-wrap: auto;
 }
 
 
@@ -277,7 +277,7 @@ $stats-border-style: 0.125rem solid #ccc;
  * Dropcap Sass @include
  * Use the following Sass @include with any selector you feel necessary.
  *
-	@include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);
+    @include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);
  *
  * Extend this object into your custom stylesheet.
  *
@@ -288,17 +288,17 @@ $stats-border-style: 0.125rem solid #ccc;
 // At this time you cannot pass in font-family arguments but you're gonna
 // change that anyway so why not just make that separately in your declaration.
 @mixin dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent) {
-	&:first-letter {
-		float: $float;
-		margin: $margin;
-		padding: $padding;
-		font-size: $font-size;
-		font-family: $font-family;
-		line-height: $lineHeight;
-		text-indent: $text-indent;
-		background: $bg;
-		color: $color;
-	}
+    &:first-letter {
+        float: $float;
+        margin: $margin;
+        padding: $padding;
+        font-size: $font-size;
+        font-family: $font-family;
+        line-height: $lineHeight;
+        text-indent: $text-indent;
+        background: $bg;
+        color: $color;
+    }
 }
 
 
@@ -311,54 +311,54 @@ $stats-border-style: 0.125rem solid #ccc;
 // http://lea.verou.me/2012/02/flexible-multiline-definition-lists-with-2-lines-of-css
 
 @mixin definition-list-style($style) {
-	// lining style
-	@if $style == lining {
-		dt,
-		dd {
-			display: inline;
-			margin: 0;
-		}
-		dt,
-		dd {
-			& + dt {
-				&:before {
-					content: "\A";
-					white-space: pre;
-				}
-			}
-		}
-		dd {
-			& + dd {
-				&:before {
-					content: ", ";
-				}
-			}
-			&:before {
-					content: ": ";
-					margin-left: -0.2rem; //removes extra space between the dt and the colon
-			}
-		}
-	}
-	// dictionary-style
-	@if $style == dictionary-style {
-		dt {
-			display: inline;
-			counter-reset: definitions;
-			& + dt {
-				&:before {
-					content: ", ";
-					margin-left: -0.2rem; // removes extra space between the dt and the comma
-				}
-			}
-		}
-		dd {
-			display: block;
-			counter-increment: definitions;
-			&:before {
-				content: counter(definitions, decimal) ". ";
-			}
-		}
-	}
+    // lining style
+    @if $style == lining {
+        dt,
+        dd {
+            display: inline;
+            margin: 0;
+        }
+        dt,
+        dd {
+            & + dt {
+                &:before {
+                    content: "\A";
+                    white-space: pre;
+                }
+            }
+        }
+        dd {
+            & + dd {
+                &:before {
+                    content: ", ";
+                }
+            }
+            &:before {
+                    content: ": ";
+                    margin-left: -0.2rem; //removes extra space between the dt and the colon
+            }
+        }
+    }
+    // dictionary-style
+    @if $style == dictionary-style {
+        dt {
+            display: inline;
+            counter-reset: definitions;
+            & + dt {
+                &:before {
+                    content: ", ";
+                    margin-left: -0.2rem; // removes extra space between the dt and the comma
+                }
+            }
+        }
+        dd {
+            display: block;
+            counter-increment: definitions;
+            &:before {
+                content: counter(definitions, decimal) ". ";
+            }
+        }
+    }
 }
 
 
@@ -374,18 +374,18 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 html {
-	@include base-type($font-properties...);
+    @include base-type($font-properties...);
 }
 
 body {
-	// Ala Trent Walton
-	@include css-hyphens(auto);
+    // Ala Trent Walton
+    @include css-hyphens(auto);
 
-	// normal: Indicates that lines may only break at normal word break points.
-	// break-word : Indicates that normally unbreakable words may be broken at ...
-	// arbitrary points if there are no otherwise acceptable break points in the line.
-	@extend %breakword;
-	color: $body-copy-color;
+    // normal: Indicates that lines may only break at normal word break points.
+    // break-word : Indicates that normally unbreakable words may be broken at ...
+    // arbitrary points if there are no otherwise acceptable break points in the line.
+    @extend %breakword;
+    color: $body-copy-color;
 }
 
 
@@ -394,11 +394,11 @@ body {
 
 // styles for all headings, in the style of @csswizardry
 %hN {
-	// voodoo to enable ligatures and kerning
-	text-rendering: optimizeLegibility;
-	// this fixes huge spaces when a heading wraps onto two lines
-	line-height: 1;
-	margin-top: 0;
+    // voodoo to enable ligatures and kerning
+    text-rendering: optimizeLegibility;
+    // this fixes huge spaces when a heading wraps onto two lines
+    line-height: 1;
+    margin-top: 0;
 }
 
 // make a multi-dimensional array, where:
@@ -408,9 +408,9 @@ $sizes: tera $tera, giga $giga, mega $mega, alpha $alpha, beta $beta, gamma $gam
 
 // for each size in the scale, create a class
 @each $size in $sizes {
-	.#{nth($size, 1)} {
-		@include modular-scale(nth($size, 2), $font-base, '#{$type-scale-unit-value}', $measure);
-	}
+    .#{nth($size, 1)} {
+        @include modular-scale(nth($size, 2), $font-base, '#{$type-scale-unit-value}', $measure);
+    }
 }
 
 // associate h1-h6 tags with their appropriate greek heading
@@ -426,10 +426,10 @@ h6 { @extend .zeta; @extend %hN; }
 // --------------------------------------------------------------------------
 
 p {
-	& + p {
-		//siblings indentation
-		text-indent: $indent-val;
-	}
+    & + p {
+        //siblings indentation
+        text-indent: $indent-val;
+    }
 }
 
 
@@ -437,26 +437,26 @@ p {
 // --------------------------------------------------------------------------
 
 @mixin white-space($wrap-space) {
-	@if $wrap-space == 'pre-wrap' {
-		white-space: #{-moz-}$wrap-space;	// Firefox 1.0-2.0
-		white-space: $wrap-space; 			// current browsers
-	} @else {
-		white-space: $wrap-space;
-	}
+    @if $wrap-space == 'pre-wrap' {
+        white-space: #{-moz-}$wrap-space;   // Firefox 1.0-2.0
+        white-space: $wrap-space;           // current browsers
+    } @else {
+        white-space: $wrap-space;
+    }
 }
 
 pre code {
-	@extend %normal-wrap;
-	@include white-space(pre-wrap);
+    @extend %normal-wrap;
+    @include white-space(pre-wrap);
 }
 
 pre {
-	@include white-space(pre);
+    @include white-space(pre);
 }
 
 code {
-	@include white-space(pre);
-	font-family: monospace;
+    @include white-space(pre);
+    font-family: monospace;
 }
 
 
@@ -466,16 +466,16 @@ code {
 /**
  * Abbreviations Markup
  *
-	<abbr title="hyper text markup language">HMTL</abbr>
+    <abbr title="hyper text markup language">HMTL</abbr>
  *
  * Extend this object into your markup.
  *
  */
 abbr {
-	@include smallcaps(gray, 600);
-	&:hover {
-		cursor: help;
-	}
+    @include smallcaps(gray, 600);
+    &:hover {
+        cursor: help;
+    }
 }
 
 
@@ -488,7 +488,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: $heading-color;
+    color: $heading-color;
 }
 
 
@@ -498,31 +498,31 @@ h6 {
 /**
  * Lining Definition Style Markup
  *
-	<dl class="lining">
-		<dt><b></b></dt>
-		<dd></dd>
-	</dl>
+    <dl class="lining">
+        <dt><b></b></dt>
+        <dd></dd>
+    </dl>
  *
  * Extend this object into your markup.
  *
  */
 .lining {
-	@include definition-list-style(lining);
+    @include definition-list-style(lining);
 }
 
 /**
  * Dictionary Definition Style Markup
  *
-	<dl class="dictionary-style">
-		<dt><b></b></dt>
-			<dd></dd>
-	</dl>
+    <dl class="dictionary-style">
+        <dt><b></b></dt>
+            <dd></dd>
+    </dl>
  *
  * Extend this object into your markup.
  *
  */
 .dictionary-style {
-	@include definition-list-style(dictionary-style);
+    @include definition-list-style(dictionary-style);
 }
 
 
@@ -532,37 +532,37 @@ h6 {
 /**
  * Stats Tab Markup
  *
-	<ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	</ul>
+    <ul class="stats-tabs">
+        <li><a href="#">[value]<b>[name]</b></a></li>
+    </ul>
  *
  * Extend this object into your markup.
  *
  */
 .stats-tabs {
-	padding: 0;
-	li {
-		display: inline-block;
-		margin: $stats-list-margin;
-		padding: $stats-list-padding;
-		border-right: $stats-border-style;
-		&:last-child {
-			margin: 0;
-			padding: 0;
-			border: none;
-		}
-		a {
-			display: inline-block;
-			font-size: $stats-font-size;
-			font-weight: bold;
-			b {
-				display: block;
-				margin: $stats-item-margin;
-				font-size: $stats-item-font-size;
-				font-weight: normal;
-			}
-		}
-	}
+    padding: 0;
+    li {
+        display: inline-block;
+        margin: $stats-list-margin;
+        padding: $stats-list-padding;
+        border-right: $stats-border-style;
+        &:last-child {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        a {
+            display: inline-block;
+            font-size: $stats-font-size;
+            font-weight: bold;
+            b {
+                display: block;
+                margin: $stats-item-margin;
+                font-size: $stats-item-font-size;
+                font-weight: normal;
+            }
+        }
+    }
 }
 
 
@@ -571,25 +571,25 @@ h6 {
 /**
  * Blockquote Markup
  *
-	<blockquote cite="">
-		<p>&Prime;&Prime;</p>
-		<cite>
-			<small><a href=""></a></small>
-		</cite>
-	</blockquote>
+    <blockquote cite="">
+        <p>&Prime;&Prime;</p>
+        <cite>
+            <small><a href=""></a></small>
+        </cite>
+    </blockquote>
  *
  * Extend this object into your markup.
  *
  */
 
 @mixin cite-style($display:block, $text-align:right, $font-size: .875em) {
-	display: $display;
-	font-size: $font-size;
-	text-align: $text-align;
+    display: $display;
+    font-size: $font-size;
+    text-align: $text-align;
 }
 
 %cite {
-	@include cite-style;
+    @include cite-style;
 }
 
 
@@ -603,40 +603,40 @@ h6 {
 /**
  * Pull Quotes Markup
  *
-	<aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	</aside>
+    <aside class="pull-quote">
+        <blockquote>
+            <p></p>
+        </blockquote>
+    </aside>
  *
  * Extend this object into your custom stylesheet.
  *
  */
 
 @mixin pull-quotes($font-size, $opacity) {
-	position: relative;
-	padding: ems($font-size, $font-size);
-	&:before,
-	&:after {
-		height: ems($font-size, $font-size);
-		opacity: $opacity;
-		position: absolute;
-		font-size: $font-size;
-	}
-	&:before {
-		content: '“';
-		top:  0em;
-		left: 0em;
-	}
-	&:after {
-		content: '”';
-		bottom: 0em;
-		right: 0em;
-	}
+    position: relative;
+    padding: ems($font-size, $font-size);
+    &:before,
+    &:after {
+        height: ems($font-size, $font-size);
+        opacity: $opacity;
+        position: absolute;
+        font-size: $font-size;
+    }
+    &:before {
+        content: '“';
+        top:  0em;
+        left: 0em;
+    }
+    &:after {
+        content: '”';
+        bottom: 0em;
+        right: 0em;
+    }
 }
 
 .pull-quote {
-	@include pull-quotes(4em, .15);
+    @include pull-quotes(4em, .15);
 }
 
 
@@ -646,11 +646,11 @@ h6 {
 /**
  * Figures Markup
  *
-	<figure>
-		<figcaption>
-			<strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
-		</figcaption>
-	</figure>
+    <figure>
+        <figcaption>
+            <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+        </figcaption>
+    </figure>
  *
  * Extend this object into your markup.
  *
@@ -663,14 +663,14 @@ h6 {
 /**
  * Footnote Markup : Replace 'X' with your unique number for each footnote
  *
-	<article>
-		<p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
-		<footer>
-			<ol class="foot-notes">
-				<li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
-			</ol>
-		</footer>
-	</article>
+    <article>
+        <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+        <footer>
+            <ol class="foot-notes">
+                <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+            </ol>
+        </footer>
+    </article>
  *
  * Extend this object into your markup.
  *

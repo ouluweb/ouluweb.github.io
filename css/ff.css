@@ -3729,7 +3729,7 @@ pre code {
  * Dropcap Sass @include
  * Use the following Sass @include with any selector you feel necessary.
  *
-	@include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);
+    @include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);
  *
  * Extend this object into your custom stylesheet.
  *
@@ -3745,7 +3745,7 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  color: #444444;
+  color: black;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003396}}
@@ -3843,7 +3843,7 @@ code {
 /**
  * Abbreviations Markup
  *
-	<abbr title="hyper text markup language">HMTL</abbr>
+    <abbr title="hyper text markup language">HMTL</abbr>
  *
  * Extend this object into your markup.
  *
@@ -3867,16 +3867,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222222;
+  color: black;
 }
 
 /**
  * Lining Definition Style Markup
  *
-	<dl class="lining">
-		<dt><b></b></dt>
-		<dd></dd>
-	</dl>
+    <dl class="lining">
+        <dt><b></b></dt>
+        <dd></dd>
+    </dl>
  *
  * Extend this object into your markup.
  *
@@ -3906,10 +3906,10 @@ h6 {
 /**
  * Dictionary Definition Style Markup
  *
-	<dl class="dictionary-style">
-		<dt><b></b></dt>
-			<dd></dd>
-	</dl>
+    <dl class="dictionary-style">
+        <dt><b></b></dt>
+            <dd></dd>
+    </dl>
  *
  * Extend this object into your markup.
  *
@@ -3937,9 +3937,9 @@ h6 {
 /**
  * Stats Tab Markup
  *
-	<ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	</ul>
+    <ul class="stats-tabs">
+        <li><a href="#">[value]<b>[name]</b></a></li>
+    </ul>
  *
  * Extend this object into your markup.
  *
@@ -3978,12 +3978,12 @@ h6 {
 /**
  * Blockquote Markup
  *
-	<blockquote cite="">
-		<p>&Prime;&Prime;</p>
-		<cite>
-			<small><a href=""></a></small>
-		</cite>
-	</blockquote>
+    <blockquote cite="">
+        <p>&Prime;&Prime;</p>
+        <cite>
+            <small><a href=""></a></small>
+        </cite>
+    </blockquote>
  *
  * Extend this object into your markup.
  *
@@ -3991,11 +3991,11 @@ h6 {
 /**
  * Pull Quotes Markup
  *
-	<aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	</aside>
+    <aside class="pull-quote">
+        <blockquote>
+            <p></p>
+        </blockquote>
+    </aside>
  *
  * Extend this object into your custom stylesheet.
  *
@@ -4028,11 +4028,11 @@ h6 {
 /**
  * Figures Markup
  *
-	<figure>
-		<figcaption>
-			<strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
-		</figcaption>
-	</figure>
+    <figure>
+        <figcaption>
+            <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+        </figcaption>
+    </figure>
  *
  * Extend this object into your markup.
  *
@@ -4040,14 +4040,14 @@ h6 {
 /**
  * Footnote Markup : Replace 'X' with your unique number for each footnote
  *
-	<article>
-		<p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
-		<footer>
-			<ol class="foot-notes">
-				<li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
-			</ol>
-		</footer>
-	</article>
+    <article>
+        <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+        <footer>
+            <ol class="foot-notes">
+                <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+            </ol>
+        </footer>
+    </article>
  *
  * Extend this object into your markup.
  *
@@ -4057,22 +4057,23 @@ h6 {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000329}}
 body {
-  background: #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;
+  /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/
+  background: #ffaa30;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000336}}
 .banner {
   text-align: center;
   padding: 2em 0;
   font-style: italic;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000344}}
 .banner h1 {
   text-shadow: 0 1px 0 white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000353}}
 .main {
   width: 90%;
   max-width: 80em;
