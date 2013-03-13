@@ -13,7 +13,6 @@
 /**
  * Setup
  */
-/*@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic);*/
 /*------------------------------------*\
     $VARS
 \*------------------------------------*/
@@ -313,7 +312,6 @@
 /*
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000322}}
 article,
 aside,
 details,
@@ -326,36 +324,29 @@ main,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /*
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000332}}
 audio,
 canvas,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /*
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000341}}
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /*
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000350}}
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* ==========================================================================
    Base
@@ -365,23 +356,19 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000364}}
 html {
   font-family: sans-serif;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000374}}
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Links
@@ -389,19 +376,15 @@ body {
 /*
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000386}}
 a:focus {
-  outline: thin dotted;
-}
+  outline: thin dotted; }
 
 /*
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\0000395}}
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* ==========================================================================
    Typography
@@ -410,113 +393,87 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003108}}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /*
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003117}}
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /*
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003126}}
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /*
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003134}}
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /*
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003142}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
-}
+  height: 0; }
 
 /*
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003152}}
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /*
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003164}}
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /*
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003173}}
 pre {
-  white-space: pre-wrap;
-}
+  white-space: pre-wrap; }
 
 /*
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003181}}
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /*
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003189}}
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /*
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003198}}
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003205}}
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003209}}
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* ==========================================================================
    Embedded content
@@ -524,18 +481,14 @@ sub {
 /*
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003221}}
 img {
-  border: 0;
-}
+  border: 0; }
 
 /*
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003229}}
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* ==========================================================================
    Figures
@@ -543,10 +496,8 @@ svg:not(:root) {
 /*
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003241}}
 figure {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Forms
@@ -554,31 +505,26 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003253}}
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /*
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003264}}
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * 1. Correct font family not being inherited in all browsers.
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003278}}
 button,
 input,
 select,
@@ -588,18 +534,15 @@ textarea {
   font-size: 100%;
   /* 2 */
   margin: 0;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003290}}
 button,
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /*
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -607,11 +550,9 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003302}}
 button,
 select {
-  text-transform: none;
-}
+  text-transform: none; }
 
 /*
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -620,7 +561,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003317}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -628,77 +568,64 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003327}}
 button[disabled],
 html input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /*
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003337}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003348}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 /*
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003361}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /*
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003370}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003380}}
 textarea {
   overflow: auto;
   /* 1 */
   vertical-align: top;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* ==========================================================================
    Tables
@@ -706,11 +633,9 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_normalize\.scss}line{font-family:\00003393}}
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /*------------------------------------*\
     $RESET
@@ -722,19 +647,16 @@ table {
 /**
 * Let’s make the box model all nice, shall we…?
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000316}}
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /**
  * The usual...
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000330}}
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
@@ -742,62 +664,49 @@ form, fieldset, legend,
 table, th, td, caption,
 hr {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Give a help cursor to elements that give extra info on `:hover`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000338}}
 abbr[title], dfn[title] {
-  cursor: help;
-}
+  cursor: help; }
 
 /**
  * Remove underlines from potentially troublesome elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000345}}
 a, u, ins {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /**
  * Apply faux underline via `border-bottom`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000352}}
 ins {
-  border-bottom: 1px solid;
-}
+  border-bottom: 1px solid; }
 
 /**
  * So that `alt` text is visually offset if images don’t load.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000359}}
 img {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Give form elements some cursor interactions...
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000371}}
 label,
 input,
 textarea,
 button,
 select,
 option {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_reset\.scss}line{font-family:\0000377}}
 .text-input:active,
 .text-input:focus,
 textarea:active,
 textarea:focus {
   cursor: text;
-  outline: none;
-}
+  outline: none; }
 
 /*------------------------------------*\
     $CLEARFIX
@@ -807,14 +716,11 @@ textarea:focus {
  * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
  * and over in your markup.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_clearfix\.scss}line{font-family:\0000310}}
-.cf:after, .gw:after,
-.grid-wrapper:after, .nav:after, .media:after, .island:after,
-.islet:after, .matrix:after, .multi-list:after {
+.cf:after, .nav:after, .media:after, .island:after,
+.islet:after {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both; }
 
 /*------------------------------------*\
     $SHARED
@@ -827,7 +733,6 @@ textarea:focus {
 /**
  * Base elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_shared\.scss}line{font-family:\0000324}}
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 blockquote, p, address,
@@ -839,50 +744,41 @@ pre,
 .island,
 .islet {
   margin-bottom: 24px;
-  margin-bottom: 1.5rem;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_shared\.scss}line{font-family:\0000328}}
-.islet h1, .islet h2, .islet h3, .islet h4, .islet h5, .islet h6, .islet hgroup, .islet
-ul, .islet ol, .islet dl, .islet
-blockquote, .islet p, .islet address, .islet
-table, .islet
-fieldset, .islet figure, .islet
-pre, .islet .form-fields > li, .islet
-.media, .islet
-.island, .islet
-.islet {
-  margin-bottom: 12px;
-  margin-bottom: 0.75rem;
-}
+  margin-bottom: 1.5rem; }
+  .islet h1, .islet h2, .islet h3, .islet h4, .islet h5, .islet h6, .islet hgroup, .islet
+  ul, .islet ol, .islet dl, .islet
+  blockquote, .islet p, .islet address, .islet
+  table, .islet
+  fieldset, .islet figure, .islet
+  pre, .islet .form-fields > li, .islet
+  .media, .islet
+  .island, .islet
+  .islet {
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem; }
 
 /**
  * Doubled up `margin-bottom` helper class.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_shared\.scss}line{font-family:\0000338}}
 .landmark {
   margin-bottom: 48px;
-  margin-bottom: 3rem;
-}
+  margin-bottom: 3rem; }
 
 /**
  * `hr` elements only take up a few pixels, so we need to give them special
  * treatment regarding vertical rhythm.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_shared\.scss}line{font-family:\0000348}}
 hr {
   margin-bottom: 22px;
-  margin-bottom: 1.375rem;
-}
+  margin-bottom: 1.375rem; }
 
 /**
  * Where `margin-left` is concerned we want to try and indent certain elements
  * by a consistent amount. Define that amount once, here.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_shared\.scss}line{font-family:\0000358}}
 ul, ol, dd {
   margin-left: 48px;
-  margin-left: 3rem;
-}
+  margin-left: 3rem; }
 
 /**
  * Base styles; unclassed HTML elements etc.
@@ -890,14 +786,11 @@ ul, ol, dd {
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_main\.scss}line{font-family:\000034}}
 html {
   font: 1em/1.5 serif;
   overflow-y: scroll;
-  min-height: 100%;
-}
+  min-height: 100%; }
 
-/*@import "base/headings";*/
 /*------------------------------------*\
     $PARAGRAPHS
 \*------------------------------------*/
@@ -905,13 +798,11 @@ html {
  * The `.lede` class is used to make the introductory text (usually a paragraph)
  * of a document slightly larger.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_paragraphs\.scss}line{font-family:\000039}}
 .lede,
 .lead {
   font-size: 18px;
   font-size: 1.125rem;
-  line-height: 1.33333;
-}
+  line-height: 1.33333; }
 
 /*------------------------------------*\
     $SMALLPRINT
@@ -919,20 +810,16 @@ html {
 /**
  * A series of classes for setting tiny type; for use in smallprint etc.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_smallprint\.scss}line{font-family:\000038}}
 .smallprint,
 .milli {
   font-size: 12px;
   font-size: 0.75rem;
-  line-height: 2;
-}
+  line-height: 2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_smallprint\.scss}line{font-family:\0000311}}
 .micro {
   font-size: 10px;
   font-size: 0.625rem;
-  line-height: 2.4;
-}
+  line-height: 2.4; }
 
 /*------------------------------------*\
     $QUOTES
@@ -946,60 +833,38 @@ html {
 /**
  * Inline quotes.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000320}}
 q {
-  quotes: "‘" "’" "“" "”";
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000323}}
-q:before {
-  content: "‘";
-  content: open-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000327}}
-q:after {
-  content: "’";
-  content: close-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000332}}
-q q:before {
-  content: "“";
-  content: open-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000336}}
-q q:after {
-  content: "”";
-  content: close-quote;
-}
+  quotes: "‘" "’" "“" "”"; }
+  q:before {
+    content: "‘";
+    content: open-quote; }
+  q:after {
+    content: "’";
+    content: close-quote; }
+  q q:before {
+    content: "“";
+    content: open-quote; }
+  q q:after {
+    content: "”";
+    content: close-quote; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000342}}
 blockquote {
-  quotes: "“" "”";
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000345}}
-blockquote p:before {
-  content: "“";
-  content: open-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000349}}
-blockquote p:after {
-  content: "";
-  content: no-close-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000353}}
-blockquote p:last-of-type:after {
-  content: "”";
-  content: close-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000358}}
-blockquote q:before {
-  content: "‘";
-  content: open-quote;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000362}}
-blockquote q:after {
-  content: "’";
-  content: close-quote;
-}
+  quotes: "“" "”"; }
+  blockquote p:before {
+    content: "“";
+    content: open-quote; }
+  blockquote p:after {
+    content: "";
+    content: no-close-quote; }
+  blockquote p:last-of-type:after {
+    content: "”";
+    content: close-quote; }
+  blockquote q:before {
+    content: "‘";
+    content: open-quote; }
+  blockquote q:after {
+    content: "’";
+    content: close-quote; }
 
 /**
  *
@@ -1010,27 +875,19 @@ blockquote q:after {
    </blockquote>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000378}}
 blockquote {
   /**
    * .4em is roughly equal to the width of the opening “ that we wish to hang.
    */
-  text-indent: -0.41em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000384}}
-blockquote p:last-of-type {
-  margin-bottom: 0;
-}
+  text-indent: -0.41em; }
+  blockquote p:last-of-type {
+    margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000389}}
 .source {
   display: block;
-  text-indent: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_quotes\.scss}line{font-family:\0000393}}
-.source:before {
-  content: "—";
-}
+  text-indent: 0; }
+  .source:before {
+    content: "—"; }
 
 /*------------------------------------*\
     $CODE
@@ -1038,17 +895,13 @@ blockquote p:last-of-type {
 /**
  * Use an explicit font stack to ensure browsers render correct `line-height`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_code\.scss}line{font-family:\000037}}
 pre {
-  overflow: auto;
-}
+  overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_code\.scss}line{font-family:\0000310}}
 pre mark {
   background: none;
   border-bottom: 1px solid;
-  color: inherit;
-}
+  color: inherit; }
 
 /**
  * Add comments to your code examples, e.g.:
@@ -1056,14 +909,12 @@ pre mark {
    <code>&lt;/div&gt;<span class=code-comment>&lt;!-- /wrapper --&gt;</span></code>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_code\.scss}line{font-family:\0000323}}
 .code-comment {
   /**
    * Override this setting in your theme stylesheet
    */
   opacity: 0.75;
-  filter: alpha(opacity=75);
-}
+  filter: alpha(opacity=75); }
 
 /**
  * You can add line numbers to your code examples but be warned, it requires
@@ -1087,7 +938,6 @@ pre mark {
  * 3. Make sure lines of code don’t wrap.
  * 4. Give the code form by forcing the `code` to honour white-space.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_code\.scss}line{font-family:\0000354}}
 .line-numbers {
   font-family: monospace, serif;
   /* [1] */
@@ -1097,14 +947,11 @@ pre mark {
   /* [3] */
   overflow: auto;
   /* [3] */
-  margin-left: 0;
-}
+  margin-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_code\.scss}line{font-family:\0000361}}
 .line-numbers code {
   white-space: pre;
-  /* [4] */
-}
+  /* [4] */ }
 
 /*------------------------------------*\
     $LINKS
@@ -1115,16 +962,12 @@ pre mark {
  * Sometimes, particularly on larger projects, it is useful to scope link
  * styling only to anchors which have `href` attributes.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_links\.scss}line{font-family:\0000310}}
 a {
   /**
    * Set colors etc in your theme stylesheet.
-   */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_links\.scss}line{font-family:\0000317}}
-a:hover, a:active, a:focus {
-  text-decoration: underline;
-}
+   */ }
+  a:hover, a:active, a:focus {
+    text-decoration: underline; }
 
 /**
  * ‘Current’ states, e.g.:
@@ -1137,11 +980,9 @@ a:hover, a:active, a:focus {
    </ul>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_links\.scss}line{font-family:\0000334}}
 .current > a {
   cursor: text;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 /*------------------------------------*\
     $IMAGES
@@ -1152,44 +993,34 @@ a:hover, a:active, a:focus {
 /**
  * Fluid images.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000310}}
 img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 /**
  * Non-fluid images if you specify `width` and/or `height` attributes.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000319}}
 img[width],
 img[height] {
-  max-width: none;
-}
+  max-width: none; }
 
 /**
  * Image placement variations.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000327}}
 .img--right {
   float: right;
   margin-bottom: 24px;
-  margin-left: 24px;
-}
+  margin-left: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000332}}
 .img--left {
   float: left;
   margin-right: 24px;
-  margin-bottom: 24px;
-}
+  margin-bottom: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000337}}
 .img--center {
   display: block;
   margin-right: auto;
   margin-bottom: 24px;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
 /**
  * Keep your images on your baseline.
@@ -1197,28 +1028,20 @@ img[height] {
  * Please note, these will not work too nicely with fluid images and will
  * distort when resized below a certain width. Use with caution.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000351}}
 .img--short {
-  height: 120px;
-}
+  height: 120px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000354}}
 .img--medium {
-  height: 240px;
-}
+  height: 240px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000357}}
 .img--tall {
-  height: 360px;
-}
+  height: 360px; }
 
 /**
  * Images in `figure` elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_images\.scss}line{font-family:\0000365}}
 figure > img {
-  display: block;
-}
+  display: block; }
 
 /*------------------------------------*\
     $LISTS
@@ -1226,20 +1049,16 @@ figure > img {
 /**
  * Remove vertical spacing from nested lists.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_lists\.scss}line{font-family:\000039}}
 li > ul,
 li > ol {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /**
  * Have a numbered `ul` without the semantics implied by using an `ol`.
  */
 /*ul*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_lists\.scss}line{font-family:\0000317}}
 .numbered-list {
-  list-style-type: decimal;
-}
+  list-style-type: decimal; }
 
 /*------------------------------------*\
     $TABLES
@@ -1298,52 +1117,35 @@ li > ol {
    </table>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000358}}
 table {
-  width: 100%;
-}
+  width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000362}}
 th,
 td {
   padding: 6px;
-  text-align: left;
-}
-@media screen and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000362}}
-  th,
-  td {
-    padding: 12px;
-  }
-}
+  text-align: left; }
+  @media screen and (min-width: 480px) {
+    th,
+    td {
+      padding: 12px; } }
 
 /**
  * Cell alignments
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000374}}
 [colspan] {
-  text-align: center;
-}
+  text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000377}}
 [colspan="1"] {
-  text-align: left;
-}
+  text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000380}}
 [rowspan] {
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000383}}
 [rowspan="1"] {
-  vertical-align: top;
-}
+  vertical-align: top; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000386}}
 .numerical {
-  text-align: right;
-}
+  text-align: right; }
 
 /**
  * In the HTML above we see several `col` elements with classes whose numbers
@@ -1351,179 +1153,117 @@ td {
  * class so that column can soak up the effects of any accidental breakage in
  * the table.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000396}}
 .t5 {
-  width: 5%;
-}
+  width: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000397}}
 .t10 {
-  width: 10%;
-}
+  width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000398}}
 .t12 {
-  width: 12.5%;
-}
+  width: 12.5%; }
 
 /* 1/8 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\0000399}}
 .t15 {
-  width: 15%;
-}
+  width: 15%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003100}}
 .t20 {
-  width: 20%;
-}
+  width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003101}}
 .t25 {
-  width: 25%;
-}
+  width: 25%; }
 
 /* 1/4 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003102}}
 .t30 {
-  width: 30%;
-}
+  width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003103}}
 .t33 {
-  width: 33.333%;
-}
+  width: 33.333%; }
 
 /* 1/3 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003104}}
 .t35 {
-  width: 35%;
-}
+  width: 35%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003105}}
 .t37 {
-  width: 37.5%;
-}
+  width: 37.5%; }
 
 /* 3/8 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003106}}
 .t40 {
-  width: 40%;
-}
+  width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003107}}
 .t45 {
-  width: 45%;
-}
+  width: 45%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003108}}
 .t50 {
-  width: 50%;
-}
+  width: 50%; }
 
 /* 1/2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003109}}
 .t55 {
-  width: 55%;
-}
+  width: 55%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003110}}
 .t60 {
-  width: 60%;
-}
+  width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003111}}
 .t62 {
-  width: 62.5%;
-}
+  width: 62.5%; }
 
 /* 5/8 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003112}}
 .t65 {
-  width: 65%;
-}
+  width: 65%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003113}}
 .t66 {
-  width: 66.666%;
-}
+  width: 66.666%; }
 
 /* 2/3 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003114}}
 .t70 {
-  width: 70%;
-}
+  width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003115}}
 .t75 {
-  width: 75%;
-}
+  width: 75%; }
 
 /* 3/4*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003116}}
 .t80 {
-  width: 80%;
-}
+  width: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003117}}
 .t85 {
-  width: 85%;
-}
+  width: 85%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003118}}
 .t87 {
-  width: 87.5%;
-}
+  width: 87.5%; }
 
 /* 7/8 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003119}}
 .t90 {
-  width: 90%;
-}
+  width: 90%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003120}}
 .t95 {
-  width: 95%;
-}
+  width: 95%; }
 
 /**
  * Bordered tables
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003129}}
 .table--bordered th,
 .table--bordered td {
   border: 1px solid #cccccc;
-  /* Override this color in your theme stylesheet */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003132}}
-.table--bordered th:empty,
-.table--bordered td:empty {
-  border: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003137}}
+  /* Override this color in your theme stylesheet */ }
+  .table--bordered th:empty,
+  .table--bordered td:empty {
+    border: none; }
 .table--bordered thead tr:last-child th {
-  border-bottom-width: 2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003141}}
+  border-bottom-width: 2px; }
 .table--bordered tbody tr th:last-of-type {
-  border-right-width: 2px;
-}
+  border-right-width: 2px; }
 
 /**
  * Striped tables
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003152}}
 .table--striped tbody tr:nth-of-type(odd) {
   background-color: #ffc;
-  /* Override this color in your theme stylesheet */
-}
+  /* Override this color in your theme stylesheet */ }
 
 /**
  * Data table
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_tables\.scss}line{font-family:\00003161}}
 .table--data {
-  font: 12px/1.5 sans-serif;
-}
+  font: 12px/1.5 sans-serif; }
 
 /*------------------------------------*\
     $FORMS
@@ -1533,10 +1273,8 @@ td {
  * Demo: jsfiddle.net/inuitcss/MhHHU
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\000039}}
 fieldset {
-  padding: 24px;
-}
+  padding: 24px; }
 
 /**
  * Text inputs
@@ -1548,13 +1286,11 @@ fieldset {
    <input type=password class=text-input>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\0000325}}
 .text-input,
 textarea {
   /**
    * Style these via your theme stylesheet.
-   */
-}
+   */ }
 
 /**
  * Group sets of form fields in a list, e.g.:
@@ -1575,16 +1311,12 @@ textarea {
    </ul>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\0000351}}
 .form-fields {
   list-style: none;
-  margin: 0;
-}
+  margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\0000358}}
 .form-fields > li:last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /**
  * Labels
@@ -1612,11 +1344,9 @@ textarea {
    </li>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\0000390}}
 label,
 .label {
-  display: block;
-}
+  display: block; }
 
 /**
  * Extra help text in `label`s, e.g.:
@@ -1624,11 +1354,9 @@ label,
    <label>Card number <small class=additional>No spaces</small></label>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\0000399}}
 .additional {
   display: block;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
 /*
  * Groups of checkboxes and radios, e.g.:
@@ -1645,21 +1373,17 @@ label,
    </li>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\00003120}}
 .check-list {
   list-style: none;
-  margin: 0;
-}
+  margin: 0; }
 
 /*
  * Labels in check-lists
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\00003129}}
 .check-label,
 .check-list label,
 .check-list .label {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Spoken forms are for forms that read like spoken word, e.g.:
@@ -1676,11 +1400,9 @@ label,
    </li>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\00003149}}
 .spoken-form label {
   display: inline-block;
-  font: inherit;
-}
+  font: inherit; }
 
 /**
  * Extra help text displayed after a field when that field is in focus, e.g.:
@@ -1695,120 +1417,19 @@ label,
  *
  */
 /*small*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\00003167}}
 .extra-help {
   display: inline-block;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/base\/_forms\.scss}line{font-family:\00003172}}
 .text-input:active + .extra-help,
 .text-input:focus + .extra-help {
-  visibility: visible;
-}
+  visibility: visible; }
 
 /**
  * Objects and abstractions
  *
  * Single-line comment (//) out any objects you do not need in your project.
  */
-/*------------------------------------*\
-    $GRIDS
-\*------------------------------------*/
-/**
- * Fluid and nestable grid system, e.g.:
- *
-   <div class=gw>
-
-       <div class="g  one-third">
-           <p>One third grid</p>
-       </div>
-
-       <div class="g  two-thirds">
-           <p>Two thirds grid</p>
-       </div>
-
-       <div class="g  one-half">
-           <p>One half grid</p>
-       </div>
-
-       <div class="g  one-quarter">
-           <p>One quarter grid</p>
-       </div>
-
-       <div class="g  one-quarter">
-           <p>One quarter grid</p>
-       </div>
-
-   </div>
- *
- * Demo: jsfiddle.net/inuitcss/CLYUC
- *
- */
-/**
- * Grid wrapper
- *
- * Shorthand and verbose
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_grids\.scss}line{font-family:\0000342}}
-.gw,
-.grid-wrapper {
-  /**
-   * Negative margin to negate the padding on the first grid child.
-   */
-  margin-left: -24px;
-  /**
-   * The following declarations allow us to use the `.gw` class on lists.
-   */
-  list-style: none;
-  margin-bottom: 0;
-}
-
-/**
- * Reverse grid order
- *
-   <div class="gw  gw--rev">
-
-       <div class="g  one-third">
-           <p>Appears on the right</p>
-       </div>
-
-       <div class="g  two-thirds">
-           <p>Appears on the left</p>
-       </div>
-
-   </div>
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_grids\.scss}line{font-family:\0000373}}
-.gw--rev > .g,
-.grid-wrapper--rev > .grid {
-  float: right;
-}
-
-/**
- * Very infrequently occuring grid wrappers as children of grid wrappers.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_grids\.scss}line{font-family:\0000382}}
-.gw > .gw,
-.grid-wrapper > .grid-wrapper {
-  margin-left: 0;
-}
-
-/**
- * Grid
- *
- * Shorthand and verbose
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_grids\.scss}line{font-family:\0000393}}
-.g,
-.grid {
-  float: left;
-  padding-left: 24px;
-}
-
-/*@import "objects/flexbox";*/
-/*@import "objects/columns";*/
 /*------------------------------------*\
     $NAV
 \*------------------------------------*/
@@ -1827,18 +1448,14 @@ label,
  * Demo: jsfiddle.net/inuitcss/Vnph4
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000319}}
 .nav {
   list-style: none;
-  margin-left: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000327}}
-.nav > li,
-.nav > li > a {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-}
+  margin-left: 0; }
+  .nav > li,
+  .nav > li > a {
+    display: inline-block;
+    *display: inline;
+    zoom: 1; }
 
 /**
  * `.nav--stacked` extends `.nav` and throws the list into vertical mode, e.g.:
@@ -1851,14 +1468,10 @@ label,
    </ul>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000349}}
 .nav--stacked > li {
-  display: list-item;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000352}}
-.nav--stacked > li > a {
-  display: block;
-}
+  display: list-item; }
+  .nav--stacked > li > a {
+    display: block; }
 
 /**
  * `.nav--banner` extends `.nav` and centres the list, e.g.:
@@ -1871,10 +1484,8 @@ label,
    </ul>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000370}}
 .nav--banner {
-  text-align: center;
-}
+  text-align: center; }
 
 /**
  * Give nav links a big, blocky hit area. Extends `.nav`, e.g.:
@@ -1887,7 +1498,6 @@ label,
    </ul>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000386}}
 .nav--block, .options {
   line-height: 1;
   /**
@@ -1895,17 +1505,12 @@ label,
    */
   letter-spacing: -0.31em;
   word-spacing: -0.43em;
-  white-space: nowrap;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000395}}
-.nav--block > li, .options > li {
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\0000399}}
-.nav--block > li > a, .options > li > a {
-  padding: 12px;
-}
+  white-space: nowrap; }
+  .nav--block > li, .options > li {
+    letter-spacing: normal;
+    word-spacing: normal; }
+    .nav--block > li > a, .options > li > a {
+      padding: 12px; }
 
 /**
  * Force a nav to occupy 100% of the available width of its parent. Extends
@@ -1920,19 +1525,13 @@ label,
  *
  * Thanks to @pimpl for this idea!
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\00003119}}
 .nav--fit {
   display: table;
-  width: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\00003123}}
-.nav--fit > li {
-  display: table-cell;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\00003126}}
-.nav--fit > li > a {
-  display: block;
-}
+  width: 100%; }
+  .nav--fit > li {
+    display: table-cell; }
+    .nav--fit > li > a {
+      display: block; }
 
 /**
  * Make a list of keywords. Extends `.nav`, e.g.:
@@ -1940,14 +1539,10 @@ label,
    `<ul class="nav  nav--keywords>`
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\00003143}}
 .nav--keywords > li:after {
-  content: ", ";
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_nav\.scss}line{font-family:\00003147}}
+  content: ", "; }
 .nav--keywords > li:last-child:after {
-  display: none;
-}
+  display: none; }
 
 /*------------------------------------*\
     $OPTIONS
@@ -1967,82 +1562,19 @@ label,
  * Demo: jsfiddle.net/inuitcss/vwfaf
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_options\.scss}line{font-family:\0000324}}
 .options > li > a {
   border: 0 solid #cccccc;
   /* Extend in your theme stylesheet */
   border-width: 1px;
-  border-left-width: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_options\.scss}line{font-family:\0000330}}
+  border-left-width: 0; }
 .options > li:first-child > a {
   border-left-width: 1px;
   border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_options\.scss}line{font-family:\0000336}}
+  border-bottom-left-radius: 4px; }
 .options > li:last-child > a {
   border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
+  border-bottom-right-radius: 4px; }
 
-/*------------------------------------*\
-    $PAGINATION
-\*------------------------------------*/
-/**
- * Basic pagination object, extends `.nav`.
- * Requires some funky commenting to collapse any white-space caused by the
- * `display:inline-block;` rules.
- *
-   <ol class="nav  pagination">
-       <li class=pagination__first>First</li>
-       <li class=pagination__prev>Previous</li>
-       <li><a href=/page/1>1</a></li>
-       <li><a href=/page/2>2</a></li>
-       <li class=current><a href=/page/3>3</a></li>
-       <li><a href=/page/4>4</a></li>
-       <li><a href=/page/5>5</a></li>
-       <li class=pagination__next><a href=/page/next>Next</a></li>
-       <li class=pagination__last><a href=/page/last>Last</a></li>
-   </ol>
- *
- * Demo: jsfiddle.net/inuitcss/9Y6PU
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_pagination\.scss}line{font-family:\0000324}}
-.pagination {
-  text-align: center;
-  /**
-   * Remove whitespace caused by `inline-block`.
-   */
-  letter-spacing: -0.31em;
-  word-spacing: -0.43em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_pagination\.scss}line{font-family:\0000332}}
-.pagination > li {
-  padding: 12px;
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_pagination\.scss}line{font-family:\0000337}}
-.pagination > li > a {
-  padding: 12px;
-  margin: -12px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_pagination\.scss}line{font-family:\0000341}}
-.pagination__first a:before {
-  content: "« ";
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_pagination\.scss}line{font-family:\0000344}}
-.pagination__last a:after {
-  content: " »";
-}
-
-/*@import "objects/breadcrumb";*/
 /*------------------------------------*\
     $MEDIA
 \*------------------------------------*/
@@ -2060,111 +1592,40 @@ label,
  * Demo: jsfiddle.net/inuitcss/cf4Qs
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000318}}
 .media {
-  display: block;
-}
+  display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000322}}
 .media__img {
   float: left;
-  margin-right: 24px;
-}
+  margin-right: 24px; }
 
 /**
  * Reversed image location (right instead of left).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000329}}
 .media__img--rev {
   float: right;
-  margin-left: 24px;
-}
+  margin-left: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000335}}
 .media__img img,
 .media__img--rev img {
-  display: block;
-}
+  display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000339}}
 .media__body {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000343}}
 .media__body,
 .media__body > :last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /**
  * `.img`s in `.islet`s need an appropriately sized margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000351}}
 .islet .media__img {
-  margin-right: 12px;
-}
+  margin-right: 12px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_media\.scss}line{font-family:\0000354}}
 .islet .media__img--rev {
-  margin-left: 12px;
-}
+  margin-left: 12px; }
 
-/*------------------------------------*\
-    $MARGINALIA
-\*------------------------------------*/
-/**
- * Marginalia are, per definition, notes in the margin of a document. The
- * `marginalia__body` class can be applied to all kinds of content, like text or
- * images, and is joined by a width class:
- *
-   <div class="marginalia">
-       <div class="marginalia__body  desk-one-fifth"></div>
-   </div>
- *
- * Demo: jsfiddle.net/inuitcss/AemkH
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_marginalia\.scss}line{font-family:\0000316}}
-.marginalia {
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 2;
-}
-
-/**
- * Wait for a certain breakpoint to trigger ‘proper' marginalia. Up to this point,
- * marginalia are inline with the other text.
- */
-@media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_marginalia\.scss}line{font-family:\0000325}}
-  .marginalia {
-    position: relative;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_marginalia\.scss}line{font-family:\0000330}}
-  .marginalia__body,
-  .marginalia__body--right {
-    position: absolute;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_marginalia\.scss}line{font-family:\0000334}}
-  .marginalia__body {
-    right: 100%;
-    padding-right: 24px;
-    text-align: right;
-  }
-
-  /**
-   * Align marginalia to the right of the text.
-   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_marginalia\.scss}line{font-family:\0000343}}
-  .marginalia__body--right {
-    left: 100%;
-    padding-left: 24px;
-    text-align: left;
-  }
-}
 /*------------------------------------*\
     $ISLAND
 \*------------------------------------*/
@@ -2179,270 +1640,23 @@ label,
  * Demo: jsfiddle.net/inuitcss/u8pV3
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_island\.scss}line{font-family:\0000316}}
 .island,
 .islet {
-  display: block;
-}
+  display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_island\.scss}line{font-family:\0000320}}
 .island {
-  padding: 24px;
-}
+  padding: 24px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_island\.scss}line{font-family:\0000324}}
 .island > :last-child,
 .islet > :last-child {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 /**
  * Just like `.island`, only smaller.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_island\.scss}line{font-family:\0000332}}
 .islet {
-  padding: 12px;
-}
+  padding: 12px; }
 
-/*------------------------------------*\
-    $BLOCK-LIST
-\*------------------------------------*/
-/**
- * Create big blocky lists of content, e.g.:
- *
-   <ul class=block-list>
-      <li>Foo</li>
-      <li>Bar</li>
-      <li>Baz</li>
-      <li><a href=# class=block-list__link>Foo Bar Baz</a></li>
-   </ul>
- *
- * Extend this object in your theme stylesheet.
- *
- * Demo: jsfiddle.net/inuitcss/hR57q
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_block-list\.scss}line{font-family:\0000322}}
-.block-list,
-.block-list > li {
-  border: 0 solid #cccccc;
-  /* Override this color in your theme stylesheet */
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_block-list\.scss}line{font-family:\0000326}}
-.block-list {
-  list-style: none;
-  margin-left: 0;
-  border-top-width: 1px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_block-list\.scss}line{font-family:\0000331}}
-.block-list > li {
-  border-bottom-width: 1px;
-  padding: 12px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_block-list\.scss}line{font-family:\0000336}}
-.block-list__link {
-  display: block;
-  padding: 12px;
-  margin: -12px;
-}
-
-/*------------------------------------*\
-    $MATRIX
-\*------------------------------------*/
-/**
- * Create a grid of items out of a single list, e.g.:
- *
-   <ul class="matrix  three-cols">
-       <li class=all-cols>Lorem</li>
-       <li>Ipsum <a href=#>dolor</a></li>
-       <li><a href=# class=matrix__link>Sit</a></li>
-       <li>Amet</li>
-       <li class=all-cols>Consectetuer</li>
-   </ul>
- *
- * Extend this object in your theme stylesheet.
- *
- * Demo: jsfiddle.net/inuitcss/Y2zrU
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000323}}
-.matrix,
-.matrix > li {
-  border: 0 solid #cccccc;
-  /* Override this color in your theme stylesheet */
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000327}}
-.matrix {
-  list-style: none;
-  margin-left: 0;
-  border-top-width: 1px;
-  border-left-width: 1px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000334}}
-.matrix > li {
-  padding: 12px;
-  float: left;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000344}}
-.matrix__link {
-  display: block;
-  padding: 12px;
-  margin: -12px;
-}
-
-/**
- * The `.multi-list` object is a lot like the `.matrix` object only without the
- * blocky borders and padding.
- *
-   <ul class="multi-list  four-cols">
-       <li>Lorem</li>
-       <li>Ipsum</li>
-       <li>Dolor</li>
-       <li>Sit</li>
-   </ul>
- *
- * Demo: jsfiddle.net/inuitcss/Y2zrU
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000365}}
-.multi-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000370}}
-.multi-list > li {
-  float: left;
-}
-
-/**
- * Apply these classes alongside the `.matrix` or `.multi-list` classes on
- * lists to determine how wide their columns are.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000379}}
-.two-cols > li {
-  width: 50%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000382}}
-.three-cols > li {
-  width: 33.333%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000385}}
-.four-cols > li {
-  width: 25%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000388}}
-.five-cols > li {
-  width: 20%;
-}
-
-/**
- * Unfortunately we have to qualify this selector in order to bring its
- * specificity above the `.[number]-cols > li` selectors above.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_matrix\.scss}line{font-family:\0000396}}
-.matrix > .all-cols,
-.multi-list > .all-cols {
-  width: 100%;
-}
-
-/*------------------------------------*\
-    $SPLIT
-\*------------------------------------*/
-/**
- * Simple split item for creating two elements floated away from one another,
- * e.g.:
- *
-   <dl class=split>
-       <dt class=split__title>Burger and fries</dt>
-       <dd>&pound;5.99</dd>
-       <dt class=split__title>Fillet steak</dt>
-       <dd>&pound;19.99</dd>
-       <dt class=split__title>Ice cream</dt>
-       <dd>&pound;2.99</dd>
-   </dl>
- *
-   <ol class="split  results">
-       <li class=first><b class=split__title>1st place</b> Bob</li>
-       <li class=second><b class=split__title>2nd place</b> Lilly</li>
-       <li class=third><b class=split__title>3rd place</b> Ted</li>
-   </ol>​
- *
- * Demo: jsfiddle.net/inuitcss/9gZW7
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_split\.scss}line{font-family:\0000326}}
-.split {
-  text-align: right;
-  list-style: none;
-  margin-left: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_split\.scss}line{font-family:\0000331}}
-.split__title {
-  text-align: left;
-  float: left;
-  clear: left;
-}
-
-/*@import "objects/this-or-this";*/
-/*------------------------------------*\
-    $LINK-COMPLEX
-\*------------------------------------*/
-/**
- * As inspired by @necolas:
- * github.com/necolas/suit-utils/blob/master/link.css#L18
- *
- * Add hover behaviour to only selected items within links, e.g.:
- *
-   <a href=log-in class=link-complex>
-       <i class="s  s--user"></i>
-       <span class=link-complex__target>Log in</span>
-   </a>
- *
- * Demo: jsfiddle.net/inuitcss/rt9M3
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_link-complex\.scss}line{font-family:\0000321}}
-.link-complex,
-.link-complex:hover,
-.link-complex:active,
-.link-complex:focus {
-  text-decoration: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_link-complex\.scss}line{font-family:\0000326}}
-.link-complex:hover .link-complex__target,
-.link-complex:active .link-complex__target,
-.link-complex:focus .link-complex__target {
-  text-decoration: underline;
-}
-
-/*@import "objects/flyout";*/
-/*------------------------------------*\
-    $ARROWS
-\*------------------------------------*/
-/**
- * It is a common design treatment to give an element a triangular points-out
- * arrow, we typically build these with CSS. These following classes allow us to
- * generate these arbitrarily with a mixin, `@arrow()`.
- */
-/**
- * Forms the basis for any/all CSS arrows.
- */
-/**
- * Define individual edges so we can combine what we need, when we need.
- */
-/*@import "objects/sprite";*/
 /*------------------------------------*\
     $ICON-TEXT
 \*------------------------------------*/
@@ -2462,10 +1676,8 @@ label,
  * Demo: jsfiddle.net/inuitcss/Q6Lbf
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_icon-text\.scss}line{font-family:\0000320}}
 .icon-text > .icon-text__icon {
-  margin-right: 6px;
-}
+  margin-right: 6px; }
 
 /**
  * We can also reverse the direction of the margin for icons that appear to the
@@ -2476,10 +1688,8 @@ label,
    </a>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_icon-text\.scss}line{font-family:\0000334}}
 .icon-text--rev > .icon-text__icon {
-  margin-left: 6px;
-}
+  margin-left: 6px; }
 
 /*------------------------------------*\
     $BUTTONS
@@ -2490,7 +1700,6 @@ label,
  * Demo: jsfiddle.net/inuitcss/RqHcp
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_buttons\.scss}line{font-family:\0000310}}
 .btn {
   font: inherit;
   cursor: pointer;
@@ -2502,29 +1711,21 @@ label,
    * Set padding in ems so we can change the size of a button by merely
    * altering its `font-size`.
    */
-  padding: 0.5em;
-}
+  padding: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_buttons\.scss}line{font-family:\0000324}}
 .btn,
 .btn:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /**
  * Basic button modifiers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_buttons\.scss}line{font-family:\0000331}}
 .btn--sml {
-  font-size: .75em;
-}
+  font-size: .75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_buttons\.scss}line{font-family:\0000332}}
 .btn--lrg {
-  font-size: 1.50em;
-}
+  font-size: 1.50em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_buttons\.scss}line{font-family:\0000334}}
 .btn--full {
   display: block;
   text-align: center;
@@ -2534,154 +1735,8 @@ label,
    */
   padding-right: 0;
   padding-left: 0;
-  width: 100%;
-}
+  width: 100%; }
 
-/*@import "objects/lozenges";*/
-/*------------------------------------*\
-    $RULES
-\*------------------------------------*/
-/**
- * Horizontal rules, extend `hr`.
- *
- * Demo: jsfiddle.net/inuitcss/L6GuZ
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000310}}
-.rule {
-  color: #ccc;
-  /* Sets border color, extend in your theme stylesheet. */
-  border: none;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  margin-bottom: 23px;
-  margin-bottom: 1.4375rem;
-}
-
-/**
- * Dotted rules
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000323}}
-.rule--dotted {
-  border-bottom-style: dotted;
-}
-
-/**
- * Dashed rules
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000331}}
-.rule--dashed {
-  border-bottom-style: dashed;
-}
-
-/**
- * Ornamental rules. Places a § over the rule.
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000339}}
-.rule--ornament {
-  position: relative;
-  /**
-  * Pass in an arbitrary ornament though a data attribute, e.g.:
-  *
-    <hr class="rule  rule--ornament" data-ornament="!">
-  *
-  */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000342}}
-.rule--ornament:after {
-  content: "§";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  line-height: 0;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_rules\.scss}line{font-family:\0000358}}
-.rule--ornament[data-ornament]:after {
-  content: attr(data-ornament);
-}
-
-/*@import "objects/stats";*/
-/*------------------------------------*\
-    $GREYBOX
-\*------------------------------------*/
-/**
- * Quickly throw together greybox wireframes. Use in conjunction with other
- * inuit.css objects to create simple greybox prototypes, e.g.:
- *
-   <div class="island  greybox  greybox--medium">Header</div>
-
-   <ul class="nav  nav--fit  nav--block  greybox">
-       <li><a href=#>Home</a></li>
-       <li><a href=#>About</a></li>
-       <li><a href=#>Portfolio</a></li>
-       <li><a href=#>Contact</a></li>
-   </ul>
- *
- * The beauty of combining the greyboxing with inuit.css objects is that any
- * prototyping can quickly be converted into/used as production code.
- *
- * For a more complete prototyping framework, consider Adam Whitcroft’s Proto:
- * adamwhitcroft.com/proto
- *
- * Demo: jsfiddle.net/inuitcss/qCXfh/
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000327}}
-.greybox,
-.graybox {
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 2;
-  font-family: sans-serif;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000335}}
-.greybox a,
-.graybox a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-/**
- * All greyboxes will occupy 100% of their parent’s width, but to alter their
- * heights we apply incrementally larger line-heights:
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000346}}
-.greybox--small,
-.graybox--small {
-  line-height: 48px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000348}}
-.greybox--medium,
-.graybox--medium {
-  line-height: 96px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000350}}
-.greybox--large,
-.graybox--large {
-  line-height: 192px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000352}}
-.greybox--huge,
-.graybox--huge {
-  line-height: 384px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/objects\/_greybox\.scss}line{font-family:\0000354}}
-.greybox--gigantic,
-.graybox--gigantic {
-  line-height: 768px;
-}
-
-/*@import "objects/batch";*/
 /**
  * Style trumps; helper and brand classes
  */
@@ -2699,149 +1754,101 @@ label,
 /**
 * Whole
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000317}}
 .one-whole {
-  width: 100%;
-}
+  width: 100%; }
 
 /**
 * Halves
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000323}}
 .one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
-  width: 50%;
-}
+  width: 50%; }
 
 /**
 * Thirds
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000329}}
 .one-third, .two-sixths, .four-twelfths {
-  width: 33.333%;
-}
+  width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000330}}
 .two-thirds, .four-sixths, .eight-twelfths {
-  width: 66.666%;
-}
+  width: 66.666%; }
 
 /**
 * Quarters
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000336}}
 .one-quarter, .two-eighths, .three-twelfths {
-  width: 25%;
-}
+  width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000338}}
 .three-quarters, .six-eighths, .nine-twelfths {
-  width: 75%;
-}
+  width: 75%; }
 
 /**
 * Fifths
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000344}}
 .one-fifth, .two-tenths {
-  width: 20%;
-}
+  width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000345}}
 .two-fifths, .four-tenths {
-  width: 40%;
-}
+  width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000346}}
 .three-fifths, .six-tenths {
-  width: 60%;
-}
+  width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000347}}
 .four-fifths, .eight-tenths {
-  width: 80%;
-}
+  width: 80%; }
 
 /**
 * Sixths
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000353}}
 .one-sixth, .two-twelfths {
-  width: 16.666%;
-}
+  width: 16.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000357}}
 .five-sixths, .ten-twelfths {
-  width: 83.333%;
-}
+  width: 83.333%; }
 
 /**
 * Eighths
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000363}}
 .one-eighth {
-  width: 12.5%;
-}
+  width: 12.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000365}}
 .three-eighths {
-  width: 37.5%;
-}
+  width: 37.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000367}}
 .five-eighths {
-  width: 62.5%;
-}
+  width: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000369}}
 .seven-eighths {
-  width: 87.5%;
-}
+  width: 87.5%; }
 
 /**
 * Tenths
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000375}}
 .one-tenth {
-  width: 10%;
-}
+  width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000377}}
 .three-tenths {
-  width: 30%;
-}
+  width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000381}}
 .seven-tenths {
-  width: 70%;
-}
+  width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000383}}
 .nine-tenths {
-  width: 90%;
-}
+  width: 90%; }
 
 /**
 * Twelfths
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000389}}
 .one-twelfth {
-  width: 8.333%;
-}
+  width: 8.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000393}}
 .five-twelfths {
-  width: 41.666%;
-}
+  width: 41.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000395}}
 .seven-twelfths {
-  width: 58.333%;
-}
+  width: 58.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000399}}
 .eleven-twelfths {
-  width: 91.666%;
-}
+  width: 91.666%; }
 
 /**
  * If you have set `$responsive` to ‘true’ in `_vars.scss` then you now have
@@ -2861,602 +1868,404 @@ label,
   /**
   * Whole
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000317}}
   .palm-one-whole {
-    width: 100%;
-  }
+    width: 100%; }
 
   /**
   * Halves
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000323}}
   .palm-one-half, .palm-two-quarters, .palm-three-sixths, .palm-four-eighths, .palm-five-tenths, .palm-six-twelfths {
-    width: 50%;
-  }
+    width: 50%; }
 
   /**
   * Thirds
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000329}}
   .palm-one-third, .palm-two-sixths, .palm-four-twelfths {
-    width: 33.333%;
-  }
+    width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000330}}
   .palm-two-thirds, .palm-four-sixths, .palm-eight-twelfths {
-    width: 66.666%;
-  }
+    width: 66.666%; }
 
   /**
   * Quarters
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000336}}
   .palm-one-quarter, .palm-two-eighths, .palm-three-twelfths {
-    width: 25%;
-  }
+    width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000338}}
   .palm-three-quarters, .palm-six-eighths, .palm-nine-twelfths {
-    width: 75%;
-  }
+    width: 75%; }
 
   /**
   * Fifths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000344}}
   .palm-one-fifth, .palm-two-tenths {
-    width: 20%;
-  }
+    width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000345}}
   .palm-two-fifths, .palm-four-tenths {
-    width: 40%;
-  }
+    width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000346}}
   .palm-three-fifths, .palm-six-tenths {
-    width: 60%;
-  }
+    width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000347}}
   .palm-four-fifths, .palm-eight-tenths {
-    width: 80%;
-  }
+    width: 80%; }
 
   /**
   * Sixths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000353}}
   .palm-one-sixth, .palm-two-twelfths {
-    width: 16.666%;
-  }
+    width: 16.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000357}}
   .palm-five-sixths, .palm-ten-twelfths {
-    width: 83.333%;
-  }
+    width: 83.333%; }
 
   /**
   * Eighths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000363}}
   .palm-one-eighth {
-    width: 12.5%;
-  }
+    width: 12.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000365}}
   .palm-three-eighths {
-    width: 37.5%;
-  }
+    width: 37.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000367}}
   .palm-five-eighths {
-    width: 62.5%;
-  }
+    width: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000369}}
   .palm-seven-eighths {
-    width: 87.5%;
-  }
+    width: 87.5%; }
 
   /**
   * Tenths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000375}}
   .palm-one-tenth {
-    width: 10%;
-  }
+    width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000377}}
   .palm-three-tenths {
-    width: 30%;
-  }
+    width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000381}}
   .palm-seven-tenths {
-    width: 70%;
-  }
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000383}}
   .palm-nine-tenths {
-    width: 90%;
-  }
+    width: 90%; }
 
   /**
   * Twelfths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000389}}
   .palm-one-twelfth {
-    width: 8.333%;
-  }
+    width: 8.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000393}}
   .palm-five-twelfths {
-    width: 41.666%;
-  }
+    width: 41.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000395}}
   .palm-seven-twelfths {
-    width: 58.333%;
-  }
+    width: 58.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000399}}
   .palm-eleven-twelfths {
-    width: 91.666%;
-  }
-}
+    width: 91.666%; } }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   /**
   * Whole
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000317}}
   .lap-one-whole {
-    width: 100%;
-  }
+    width: 100%; }
 
   /**
   * Halves
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000323}}
   .lap-one-half, .lap-two-quarters, .lap-three-sixths, .lap-four-eighths, .lap-five-tenths, .lap-six-twelfths {
-    width: 50%;
-  }
+    width: 50%; }
 
   /**
   * Thirds
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000329}}
   .lap-one-third, .lap-two-sixths, .lap-four-twelfths {
-    width: 33.333%;
-  }
+    width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000330}}
   .lap-two-thirds, .lap-four-sixths, .lap-eight-twelfths {
-    width: 66.666%;
-  }
+    width: 66.666%; }
 
   /**
   * Quarters
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000336}}
   .lap-one-quarter, .lap-two-eighths, .lap-three-twelfths {
-    width: 25%;
-  }
+    width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000338}}
   .lap-three-quarters, .lap-six-eighths, .lap-nine-twelfths {
-    width: 75%;
-  }
+    width: 75%; }
 
   /**
   * Fifths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000344}}
   .lap-one-fifth, .lap-two-tenths {
-    width: 20%;
-  }
+    width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000345}}
   .lap-two-fifths, .lap-four-tenths {
-    width: 40%;
-  }
+    width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000346}}
   .lap-three-fifths, .lap-six-tenths {
-    width: 60%;
-  }
+    width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000347}}
   .lap-four-fifths, .lap-eight-tenths {
-    width: 80%;
-  }
+    width: 80%; }
 
   /**
   * Sixths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000353}}
   .lap-one-sixth, .lap-two-twelfths {
-    width: 16.666%;
-  }
+    width: 16.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000357}}
   .lap-five-sixths, .lap-ten-twelfths {
-    width: 83.333%;
-  }
+    width: 83.333%; }
 
   /**
   * Eighths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000363}}
   .lap-one-eighth {
-    width: 12.5%;
-  }
+    width: 12.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000365}}
   .lap-three-eighths {
-    width: 37.5%;
-  }
+    width: 37.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000367}}
   .lap-five-eighths {
-    width: 62.5%;
-  }
+    width: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000369}}
   .lap-seven-eighths {
-    width: 87.5%;
-  }
+    width: 87.5%; }
 
   /**
   * Tenths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000375}}
   .lap-one-tenth {
-    width: 10%;
-  }
+    width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000377}}
   .lap-three-tenths {
-    width: 30%;
-  }
+    width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000381}}
   .lap-seven-tenths {
-    width: 70%;
-  }
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000383}}
   .lap-nine-tenths {
-    width: 90%;
-  }
+    width: 90%; }
 
   /**
   * Twelfths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000389}}
   .lap-one-twelfth {
-    width: 8.333%;
-  }
+    width: 8.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000393}}
   .lap-five-twelfths {
-    width: 41.666%;
-  }
+    width: 41.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000395}}
   .lap-seven-twelfths {
-    width: 58.333%;
-  }
+    width: 58.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000399}}
   .lap-eleven-twelfths {
-    width: 91.666%;
-  }
-}
+    width: 91.666%; } }
 @media only screen and (max-width: 1023px) {
   /**
   * Whole
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000317}}
   .portable-one-whole {
-    width: 100%;
-  }
+    width: 100%; }
 
   /**
   * Halves
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000323}}
   .portable-one-half, .portable-two-quarters, .portable-three-sixths, .portable-four-eighths, .portable-five-tenths, .portable-six-twelfths {
-    width: 50%;
-  }
+    width: 50%; }
 
   /**
   * Thirds
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000329}}
   .portable-one-third, .portable-two-sixths, .portable-four-twelfths {
-    width: 33.333%;
-  }
+    width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000330}}
   .portable-two-thirds, .portable-four-sixths, .portable-eight-twelfths {
-    width: 66.666%;
-  }
+    width: 66.666%; }
 
   /**
   * Quarters
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000336}}
   .portable-one-quarter, .portable-two-eighths, .portable-three-twelfths {
-    width: 25%;
-  }
+    width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000338}}
   .portable-three-quarters, .portable-six-eighths, .portable-nine-twelfths {
-    width: 75%;
-  }
+    width: 75%; }
 
   /**
   * Fifths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000344}}
   .portable-one-fifth, .portable-two-tenths {
-    width: 20%;
-  }
+    width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000345}}
   .portable-two-fifths, .portable-four-tenths {
-    width: 40%;
-  }
+    width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000346}}
   .portable-three-fifths, .portable-six-tenths {
-    width: 60%;
-  }
+    width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000347}}
   .portable-four-fifths, .portable-eight-tenths {
-    width: 80%;
-  }
+    width: 80%; }
 
   /**
   * Sixths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000353}}
   .portable-one-sixth, .portable-two-twelfths {
-    width: 16.666%;
-  }
+    width: 16.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000357}}
   .portable-five-sixths, .portable-ten-twelfths {
-    width: 83.333%;
-  }
+    width: 83.333%; }
 
   /**
   * Eighths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000363}}
   .portable-one-eighth {
-    width: 12.5%;
-  }
+    width: 12.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000365}}
   .portable-three-eighths {
-    width: 37.5%;
-  }
+    width: 37.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000367}}
   .portable-five-eighths {
-    width: 62.5%;
-  }
+    width: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000369}}
   .portable-seven-eighths {
-    width: 87.5%;
-  }
+    width: 87.5%; }
 
   /**
   * Tenths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000375}}
   .portable-one-tenth {
-    width: 10%;
-  }
+    width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000377}}
   .portable-three-tenths {
-    width: 30%;
-  }
+    width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000381}}
   .portable-seven-tenths {
-    width: 70%;
-  }
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000383}}
   .portable-nine-tenths {
-    width: 90%;
-  }
+    width: 90%; }
 
   /**
   * Twelfths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000389}}
   .portable-one-twelfth {
-    width: 8.333%;
-  }
+    width: 8.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000393}}
   .portable-five-twelfths {
-    width: 41.666%;
-  }
+    width: 41.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000395}}
   .portable-seven-twelfths {
-    width: 58.333%;
-  }
+    width: 58.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000399}}
   .portable-eleven-twelfths {
-    width: 91.666%;
-  }
-}
+    width: 91.666%; } }
 @media only screen and (min-width: 1024px) {
   /**
   * Whole
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000317}}
   .desk-one-whole {
-    width: 100%;
-  }
+    width: 100%; }
 
   /**
   * Halves
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000323}}
   .desk-one-half, .desk-two-quarters, .desk-three-sixths, .desk-four-eighths, .desk-five-tenths, .desk-six-twelfths {
-    width: 50%;
-  }
+    width: 50%; }
 
   /**
   * Thirds
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000329}}
   .desk-one-third, .desk-two-sixths, .desk-four-twelfths {
-    width: 33.333%;
-  }
+    width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000330}}
   .desk-two-thirds, .desk-four-sixths, .desk-eight-twelfths {
-    width: 66.666%;
-  }
+    width: 66.666%; }
 
   /**
   * Quarters
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000336}}
   .desk-one-quarter, .desk-two-eighths, .desk-three-twelfths {
-    width: 25%;
-  }
+    width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000338}}
   .desk-three-quarters, .desk-six-eighths, .desk-nine-twelfths {
-    width: 75%;
-  }
+    width: 75%; }
 
   /**
   * Fifths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000344}}
   .desk-one-fifth, .desk-two-tenths {
-    width: 20%;
-  }
+    width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000345}}
   .desk-two-fifths, .desk-four-tenths {
-    width: 40%;
-  }
+    width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000346}}
   .desk-three-fifths, .desk-six-tenths {
-    width: 60%;
-  }
+    width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000347}}
   .desk-four-fifths, .desk-eight-tenths {
-    width: 80%;
-  }
+    width: 80%; }
 
   /**
   * Sixths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000353}}
   .desk-one-sixth, .desk-two-twelfths {
-    width: 16.666%;
-  }
+    width: 16.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000357}}
   .desk-five-sixths, .desk-ten-twelfths {
-    width: 83.333%;
-  }
+    width: 83.333%; }
 
   /**
   * Eighths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000363}}
   .desk-one-eighth {
-    width: 12.5%;
-  }
+    width: 12.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000365}}
   .desk-three-eighths {
-    width: 37.5%;
-  }
+    width: 37.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000367}}
   .desk-five-eighths {
-    width: 62.5%;
-  }
+    width: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000369}}
   .desk-seven-eighths {
-    width: 87.5%;
-  }
+    width: 87.5%; }
 
   /**
   * Tenths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000375}}
   .desk-one-tenth {
-    width: 10%;
-  }
+    width: 10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000377}}
   .desk-three-tenths {
-    width: 30%;
-  }
+    width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000381}}
   .desk-seven-tenths {
-    width: 70%;
-  }
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000383}}
   .desk-nine-tenths {
-    width: 90%;
-  }
+    width: 90%; }
 
   /**
   * Twelfths
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000389}}
   .desk-one-twelfth {
-    width: 8.333%;
-  }
+    width: 8.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000393}}
   .desk-five-twelfths {
-    width: 41.666%;
-  }
+    width: 41.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000395}}
   .desk-seven-twelfths {
-    width: 58.333%;
-  }
+    width: 58.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_widths\.scss}line{font-family:\0000399}}
   .desk-eleven-twelfths {
-    width: 91.666%;
-  }
-}
+    width: 91.666%; } }
 /**
  * If you have set the additional `$responsive-extra` variable to ‘true’ in
  * `_vars.scss` then you now have access to the following class available to
  * accomodate much larger screen resolutions.
  */
 /* endif */
-/*@import "generic/push";*/
-/*@import "generic/pull";*/
 /*------------------------------------*\
     $BRAND
 \*------------------------------------*/
@@ -3464,22 +2273,16 @@ label,
  * `.brand` is a quick and simple way to apply your brand face and/or color to
  * any element using a handy helper class.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_brand\.scss}line{font-family:\000038}}
 .brand {
   font-family: "Helvetica Neue", sans-serif!important;
-  color: #4a8ec2!important;
-}
+  color: #4a8ec2!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_brand\.scss}line{font-family:\0000312}}
 .brand-face {
-  font-family: "Helvetica Neue", sans-serif!important;
-}
+  font-family: "Helvetica Neue", sans-serif!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_brand\.scss}line{font-family:\0000316}}
 .brand-color,
 .brand-colour {
-  color: #4a8ec2!important;
-}
+  color: #4a8ec2!important; }
 
 /*------------------------------------*\
     $HELPER
@@ -3493,99 +2296,67 @@ label,
  * A lot of these classes carry `!important` as you will always want them to win
  * out over other selectors.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000313}}
 .float--right {
-  float: right!important;
-}
+  float: right!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000314}}
 .float--left {
-  float: left !important;
-}
+  float: left !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000316}}
 .text--left {
-  text-align: left !important;
-}
+  text-align: left !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000317}}
 .text--center {
-  text-align: center!important;
-}
+  text-align: center!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000318}}
 .text--right {
-  text-align: right !important;
-}
+  text-align: right !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000320}}
 .flush {
-  margin: 0!important;
-}
+  margin: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000321}}
 .flush--top {
-  margin-top: 0!important;
-}
+  margin-top: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000322}}
 .flush--right {
-  margin-right: 0!important;
-}
+  margin-right: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000323}}
 .flush--bottom {
-  margin-bottom: 0!important;
-}
+  margin-bottom: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000324}}
 .flush--left {
-  margin-left: 0!important;
-}
+  margin-left: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000325}}
 .flush--ends {
   margin-top: 0!important;
-  margin-bottom: 0!important;
-}
+  margin-bottom: 0!important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000326}}
 .flush--sides {
   margin-right: 0!important;
-  margin-left: 0!important;
-}
+  margin-left: 0!important; }
 
 /**
  * Pull items full width of `.island` parents.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000332}}
 .full-bleed {
   margin-right: -24px !important;
-  margin-left: -24px !important;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000336}}
-.islet .full-bleed {
-  margin-right: -12px !important;
-  margin-left: -12px !important;
-}
+  margin-left: -24px !important; }
+  .islet .full-bleed {
+    margin-right: -12px !important;
+    margin-left: -12px !important; }
 
 /**
  * Add a help cursor to any element that gives the user extra information on
  * `:hover`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000347}}
 .informative {
-  cursor: help;
-}
+  cursor: help; }
 
 /**
  * Mute an object by reducing its opacity.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000355}}
 .muted {
   opacity: 0.5;
-  filter: alpha(opacity=50);
-}
+  filter: alpha(opacity=50); }
 
 /**
  * Align items to the right where they imply progression/movement forward, e.g.:
@@ -3593,10 +2364,8 @@ label,
    <p class=proceed><a href=#>Read more...</a></p>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000367}}
 .proceed {
-  text-align: right;
-}
+  text-align: right; }
 
 /**
  * Add a right-angled quote to links that imply movement, e.g.:
@@ -3604,85 +2373,57 @@ label,
    <a href=# class=go>Read more</a>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000378}}
 .go:after {
-  content: " »";
-}
+  content: " »"; }
 
 /**
  * Apply capital case to an element (usually a `strong`).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000386}}
 .caps {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 /**
  * Hide content off-screen without resorting to `display:none;`
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000394}}
 .accessibility {
   position: absolute;
-  left: -99999px;
-}
+  left: -99999px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\0000395}}
 [dir=rtl] .accessibility {
   left: auto;
-  right: -99999px;
-}
+  right: -99999px; }
 
 /**
  * Hide content based on breakpoint
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003101}}
 .hide {
   position: absolute;
-  left: -9999px;
-}
+  left: -9999px; }
 
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--palm {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--lap {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 @media only screen and (min-width: 481px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--lap-and-up {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 @media only screen and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--portable {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 @media only screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--desk {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 @media only screen and (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/inuit\.css\/generic\/_helper\.scss}line{font-family:\00003107}}
   .hide--desk-wide {
     position: absolute;
-    left: -9999px;
-  }
-}
+    left: -9999px; } }
 /* endif */
 /*
 +---------------------------------------------------------------------+
@@ -3706,24 +2447,18 @@ label,
 @font-face {
   font-family: "Ampersand";
   src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+0026;
-}
+  unicode-range: U+0026; }
 
 @font-face {
   font-family: "Ampersand";
   src: local("Georgia");
-  unicode-range: U+270C;
-}
+  unicode-range: U+270C; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003261}}
 body {
-  word-wrap: breakword;
-}
+  word-wrap: breakword; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003265}}
 pre code {
-  word-wrap: normal;
-}
+  word-wrap: normal; }
 
 /**
  * Dropcap Sass @include
@@ -3734,111 +2469,79 @@ pre code {
  * Extend this object into your custom stylesheet.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003376}}
 html {
-  font: normal 112.5%/1.65 "Titillium web", sans-serif;
-}
+  font: normal 112.5%/1.65 "Titillium web", sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003380}}
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  color: black;
-}
+  color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003396}}
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .tera {
   font-size: 117px;
   font-size: 6.5rem;
-  margin-bottom: 0.25385rem;
-}
+  margin-bottom: 0.25385rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .giga {
   font-size: 90px;
   font-size: 5rem;
-  margin-bottom: 0.33rem;
-}
+  margin-bottom: 0.33rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .mega {
   font-size: 72px;
   font-size: 4rem;
-  margin-bottom: 0.4125rem;
-}
+  margin-bottom: 0.4125rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .alpha, h1 {
   font-size: 60px;
   font-size: 3.33333rem;
-  margin-bottom: 0.495rem;
-}
+  margin-bottom: 0.495rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .beta, h2 {
   font-size: 48px;
   font-size: 2.66667rem;
-  margin-bottom: 0.61875rem;
-}
+  margin-bottom: 0.61875rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .gamma, h3 {
   font-size: 36px;
   font-size: 2rem;
-  margin-bottom: 0.825rem;
-}
+  margin-bottom: 0.825rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .delta, h4 {
   font-size: 24px;
   font-size: 1.33333rem;
-  margin-bottom: 1.2375rem;
-}
+  margin-bottom: 1.2375rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .epsilon, h5 {
   font-size: 21px;
   font-size: 1.16667rem;
-  margin-bottom: 1.41429rem;
-}
+  margin-bottom: 1.41429rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003411}}
 .zeta, h6 {
   font-size: 18px;
   font-size: 1rem;
-  margin-bottom: 1.65rem;
-}
+  margin-bottom: 1.65rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003429}}
 p + p {
-  text-indent: 1.5em;
-}
+  text-indent: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003448}}
 pre code {
   white-space: -moz-pre-wrap;
-  white-space: pre-wrap;
-}
+  white-space: pre-wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003453}}
 pre {
-  white-space: pre;
-}
+  white-space: pre; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003457}}
 code {
   white-space: pre;
-  font-family: monospace;
-}
+  font-family: monospace; }
 
 /**
  * Abbreviations Markup
@@ -3848,27 +2551,21 @@ code {
  * Extend this object into your markup.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003474}}
 abbr {
   font-variant: small-caps;
   font-weight: 600;
   text-transform: lowercase;
-  color: gray;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003476}}
-abbr:hover {
-  cursor: help;
-}
+  color: gray; }
+  abbr:hover {
+    cursor: help; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003490}}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: black;
-}
+  color: black; }
 
 /**
  * Lining Definition Style Markup
@@ -3881,27 +2578,19 @@ h6 {
  * Extend this object into your markup.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003317}}
 .lining dt,
 .lining dd {
   display: inline;
-  margin: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003324}}
+  margin: 0; }
 .lining dt + dt:before,
 .lining dd + dt:before {
   content: "\A";
-  white-space: pre;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003332}}
+  white-space: pre; }
 .lining dd + dd:before {
-  content: ", ";
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003336}}
+  content: ", "; }
 .lining dd:before {
   content: ": ";
-  margin-left: -0.2rem;
-}
+  margin-left: -0.2rem; }
 
 /**
  * Dictionary Definition Style Markup
@@ -3914,25 +2603,17 @@ h6 {
  * Extend this object into your markup.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003344}}
 .dictionary-style dt {
   display: inline;
-  counter-reset: definitions;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003348}}
-.dictionary-style dt + dt:before {
-  content: ", ";
-  margin-left: -0.2rem;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003354}}
+  counter-reset: definitions; }
+  .dictionary-style dt + dt:before {
+    content: ", ";
+    margin-left: -0.2rem; }
 .dictionary-style dd {
   display: block;
-  counter-increment: definitions;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003357}}
-.dictionary-style dd:before {
-  content: counter(definitions, decimal) ". ";
-}
+  counter-increment: definitions; }
+  .dictionary-style dd:before {
+    content: counter(definitions, decimal) ". "; }
 
 /**
  * Stats Tab Markup
@@ -3944,36 +2625,26 @@ h6 {
  * Extend this object into your markup.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003542}}
 .stats-tabs {
-  padding: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003544}}
-.stats-tabs li {
-  display: inline-block;
-  margin: 0 0.625rem 0 0;
-  padding: 0 0.625rem 0 0;
-  border-right: 0.125rem solid #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003549}}
-.stats-tabs li:last-child {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003554}}
-.stats-tabs li a {
-  display: inline-block;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003558}}
-.stats-tabs li a b {
-  display: block;
-  margin: 0.125rem 0 0 0;
-  font-size: 0.875rem;
-  font-weight: normal;
-}
+  padding: 0; }
+  .stats-tabs li {
+    display: inline-block;
+    margin: 0 0.625rem 0 0;
+    padding: 0 0.625rem 0 0;
+    border-right: 0.125rem solid #cccccc; }
+    .stats-tabs li:last-child {
+      margin: 0;
+      padding: 0;
+      border: none; }
+    .stats-tabs li a {
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: bold; }
+      .stats-tabs li a b {
+        display: block;
+        margin: 0.125rem 0 0 0;
+        font-size: 0.875rem;
+        font-weight: normal; }
 
 /**
  * Blockquote Markup
@@ -4000,30 +2671,22 @@ h6 {
  * Extend this object into your custom stylesheet.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003638}}
 .pull-quote {
   position: relative;
-  padding: 1em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003620}}
-.pull-quote:before, .pull-quote:after {
-  height: 1em;
-  opacity: 0.15;
-  position: absolute;
-  font-size: 4em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003626}}
-.pull-quote:before {
-  content: '“';
-  top: 0em;
-  left: 0em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/_typeplate\.scss}line{font-family:\00003631}}
-.pull-quote:after {
-  content: '”';
-  bottom: 0em;
-  right: 0em;
-}
+  padding: 1em; }
+  .pull-quote:before, .pull-quote:after {
+    height: 1em;
+    opacity: 0.15;
+    position: absolute;
+    font-size: 4em; }
+  .pull-quote:before {
+    content: '“';
+    top: 0em;
+    left: 0em; }
+  .pull-quote:after {
+    content: '”';
+    bottom: 0em;
+    right: 0em; }
 
 /**
  * Figures Markup
@@ -4055,27 +2718,19 @@ h6 {
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000329}}
 body {
   /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/
-  background: #ffaa30;
-}
+  background: #ffaa30; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000336}}
 .banner {
   text-align: center;
   padding: 2em 0;
   font-style: italic;
-  font-weight: 700;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000344}}
-.banner h1 {
-  text-shadow: 0 1px 0 white;
-}
+  font-weight: 700; }
+  .banner h1 {
+    text-shadow: 0 1px 0 white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tommi\/Projects\/FrontendFriday\/css\/ff\.scss}line{font-family:\0000353}}
 .main {
   width: 90%;
   max-width: 80em;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
