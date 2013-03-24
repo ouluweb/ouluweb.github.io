@@ -29,9 +29,9 @@ $serif-boolean : true;
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
 
-h1, h2, h3, h4 {
-    font-family : $font-family-sans;
-}
+/*h1, h2, h3, h4 {*/
+    /*font-family : $font-family-sans;*/
+/*}*/
 
 
 
@@ -46,5 +46,7 @@ body {
     padding : 2em 0;
 
     font-weight : 700;
+
+    font-family : $font-family-sans;
 }
 

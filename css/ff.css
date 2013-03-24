@@ -935,8 +935,9 @@ h1, h2, h3, h4, h5, h6 { color: black; }
 /** Figures Markup  <figure> <figcaption> <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite> </figcaption> </figure>  Extend this object into your markup.  */
 /** Footnote Markup : Replace 'X' with your unique number for each footnote  <article> <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p> <footer> <ol class="foot-notes"> <li id="fn-itemX"><a href="#fn-returnX">↩</a></li> </ol> </footer> </article>  Extend this object into your markup.  */
 /** She’s all yours, cap’n... Begin importing your stuff here. */
-h1, h2, h3, h4 { font-family: Impact, Arial, sans-serif; }
-
+/*h1, h2, h3, h4 {*/
+/*font-family : $font-family-sans;*/
+/*}*/
 body { /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/ background: #ffaa30; }
 
-.banner { padding: 2em 0; font-weight: 700; }
+.banner { padding: 2em 0; font-weight: 700; font-family: Impact, Arial, sans-serif; }
