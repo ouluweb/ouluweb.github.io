@@ -868,7 +868,7 @@ body { word-wrap: breakword; }
 pre code { word-wrap: normal; }
 
 /** Dropcap Sass @include Use the following Sass @include with any selector you feel necessary.  @include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);  Extend this object into your custom stylesheet.  */
-html { font: normal 112.5%/1.65 "Titillium web", sans-serif; }
+html { font: normal 112.5%/1.65 Impact, Arial, sans-serif; }
 
 body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; color: black; }
 
@@ -935,9 +935,8 @@ h1, h2, h3, h4, h5, h6 { color: black; }
 /** Figures Markup  <figure> <figcaption> <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite> </figcaption> </figure>  Extend this object into your markup.  */
 /** Footnote Markup : Replace 'X' with your unique number for each footnote  <article> <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p> <footer> <ol class="foot-notes"> <li id="fn-itemX"><a href="#fn-returnX">↩</a></li> </ol> </footer> </article>  Extend this object into your markup.  */
 /** She’s all yours, cap’n... Begin importing your stuff here. */
+h1, h2, h3, h4 { font-family: Impact, Arial, sans-serif; }
+
 body { /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/ background: #ffaa30; }
 
-.banner { text-align: center; padding: 2em 0; font-style: italic; font-weight: 700; }
-.banner h1 { text-shadow: 0 1px 0 white; }
-
-.main { width: 90%; max-width: 80em; margin: 0 auto; }
+.banner { padding: 2em 0; font-weight: 700; }

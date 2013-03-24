@@ -34,8 +34,8 @@ $line-height: 1.65;
 $font-size: 112.5; // percentage value (16 * 112.5% = 18px)
 $font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
 $measure: $font-base * $line-height;
-$font-family: serif;
-$font-family-sans: 'Titillium web', sans-serif;
+$font-family: Rockwell, 'Courier New', Courier, serif;
+$font-family-sans: Impact, Arial, sans-serif;
 $font-properties: $weight, $line-height, $font-size, $font-family;
 
 //the serif boolean var can be redeclared from another stylesheet. However
