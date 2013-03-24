@@ -40,6 +40,9 @@ body {
     background : #ffaa30;
 }
 
+.wrapper {
+    padding : 20px;
+}
 
 // header.banner
 .banner {
@@ -52,6 +55,14 @@ body {
     h1 {
         text-transform : uppercase;
         letter-spacing : -4px;
+    }
+
+
+    // bottom lines
+    &,
+    .banner__header{
+        display : inline;
+        border : 10px solid #000;
     }
 }
 
