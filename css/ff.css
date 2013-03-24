@@ -868,7 +868,7 @@ body { word-wrap: breakword; }
 pre code { word-wrap: normal; }
 
 /** Dropcap Sass @include Use the following Sass @include with any selector you feel necessary.  @include dropcap($float: left, $font-size: 4em, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent);  Extend this object into your custom stylesheet.  */
-html { font: normal 112.5%/1.65 Impact, Arial, sans-serif; }
+html { font: normal 112.5%/1.65 Rockwell, "Courier New", Courier, serif; }
 
 body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; color: black; }
 
