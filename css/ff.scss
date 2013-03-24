@@ -55,6 +55,7 @@ body {
     h1 {
         text-transform : uppercase;
         letter-spacing : -4px;
+        display : inline;
     }
 
 
@@ -62,7 +63,7 @@ body {
     &,
     .banner__header{
         display : inline;
-        border : 10px solid #000;
+        border-bottom: 10px solid #000;
     }
 }
 
