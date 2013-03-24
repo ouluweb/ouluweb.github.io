@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Gridset Demo</title>
+
+<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=0, initial-scale=1">
+
+<!-- Gridset CSS -->
+<!--[if (!IE) | (gt IE 8)]><!--><link rel="stylesheet" href="./css/gridset.css" /><!--<![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" href="./css/gridset-ie-lte8.css" /><![endif]-->
+
+<!-- Totally unnecessary demo styles - REMOVE FOR YOUR USE -->
+<style type="text/css">
+
+	* simple reset */
+		html, body, h1, div, div {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-size: 100%;
+			vertical-align: baseline;
+			background: transparent;
+		}
+	
+		body {
+			font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #333;
+			background: #f8f8f7;
+			text-align: center;
+			padding-top: 40px;
+			line-height: 1;
+		}
+	
+		.wrapper {
+			margin: 0 auto;
+			width: 90%;
+			float: none;
+		}
+		
+		hr {
+			display: none;
+			*display: block;
+			width: 100%;
+			border: none;
+			background: none;
+			float: left;
+			clear: both;
+			height: 0;
+			margin: 0;
+			visibility: hidden;
+		}
+		
+		div {
+			float: left;
+			width: 100%;
+			margin-bottom: 40px;
+			display: block;
+			position: relative;
+			*zoom: 1;
+		}
+		
+		div h1 {
+			margin: 0 0 20px;
+			font-size: 24px;
+		}
+	
+		.box {
+			outline: 1px solid #99999a;
+			*border: 1px solid #99999a;
+			margin-bottom: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+		.box h1 {
+			margin: 0;
+			font-size: 15px;
+		}
+		
+		.box[class*=pad] {
+			background: #99999a;
+			padding-top: 0;
+			padding-bottom: 0;
+			outline: none;
+			border-top: 1px solid #99999a;
+			border-bottom: 1px solid #99999a;
+		}
+		
+		.box[class*=pad] h1 {
+			background: #f8f8f7;
+			outline: none;
+			padding: 10px 0;
+		}
+
+</style>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+	
+		<div class="m-hide mb-hide">
+
+			<h1>Desktop</h1>
+
+			<!-- class examples -->
+			<div class="d1 box"><h1>d1</h1></div>
+			<div class="d2 box"><h1>d2</h1></div>
+			<div class="d3 box"><h1>d3</h1></div>
+
+			<hr />
+
+			<hr />
+
+			<!-- full width example -->
+			<div class="d-all box"><h1>d-all</h1></div>
+
+			<hr />
+
+			<!-- padding examples -->
+			<div class="d1 d-padin box"><h1>d1 d-padin</h1></div>
+			<div class="d3 d-pad box"><h1>d3 d-pad</h1></div>
+
+			<hr />
+			<div class="d1 d-padinfull box"><h1>d1 d-padinfull</h1></div>
+			<div class="d3 d-padfull box"><h1>d3 d-padfull</h1></div>
+
+		</div><!-- end Desktop -->
+
+		<div class="d-hide mb-hide">
+
+			<h1>Tablet</h1>
+
+			<!-- class examples -->
+			<div class="m1 box"><h1>m1</h1></div>
+			<div class="m2 box"><h1>m2</h1></div>
+
+			<hr />
+
+			<hr />
+
+			<!-- full width example -->
+			<div class="m-all box"><h1>m-all</h1></div>
+
+			<hr />
+
+			<!-- padding examples -->
+			<div class="m1 m-padin box"><h1>m1 m-padin</h1></div>
+			<div class="m2 m-pad box"><h1>m2 m-pad</h1></div>
+
+			<hr />
+			<div class="m1 m-padinfull box"><h1>m1 m-padinfull</h1></div>
+			<div class="m2 m-padfull box"><h1>m2 m-padfull</h1></div>
+
+		</div><!-- end Tablet -->
+
+		<div class="d-hide m-hide">
+
+			<h1>Mobile</h1>
+
+			<!-- class examples -->
+			<div class="mb1 box"><h1>mb1</h1></div>
+
+			<hr />
+
+			<hr />
+
+			<!-- full width example -->
+			<div class="mb-all box"><h1>mb-all</h1></div>
+
+			<hr />
+
+			<!-- padding examples -->
+			<div class="mb1 mb-padin box"><h1>mb1 mb-padin</h1></div>
+			<div class="mb1 mb-pad box"><h1>mb1 mb-pad</h1></div>
+
+			<hr />
+			<div class="mb1 mb-padinfull box"><h1>mb1 mb-padinfull</h1></div>
+			<div class="mb1 mb-padfull box"><h1>mb1 mb-padfull</h1></div>
+
+		</div><!-- end Mobile -->
+
+
+		
+	</div>
+	
+	<!-- Gridset overlay script - toggles grid overlay on and off - You can remove this if you want. -->
+	<script src="./js/gridset-overlay.js"></script>	
+
+</body>
+</html>
