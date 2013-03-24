@@ -46,7 +46,7 @@ body {
 
 // header.banner
 .banner {
-    padding : 2em 0 .3em;
+    padding : 2em 0;
 
     font-weight : 700;
 
@@ -55,14 +55,21 @@ body {
     h1 {
         text-transform : uppercase;
         letter-spacing : -4px;
-        display : inline;
         line-height : 1.1;
     }
 
 
+}
+
+.banner-header {
+
     // bottom lines
+    h1 {
+        display :inline;
+    }
+
     &,
-    .banner__header{
+    .banner-header__inner{
         display : inline;
         border-bottom: 10px solid #000;
     }
