@@ -942,6 +942,6 @@ body { /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/ back
 
 .wrapper { padding: 20px; }
 
-.banner { padding: 2em 0; font-weight: 700; font-family: Impact, Arial, sans-serif; }
-.banner h1 { text-transform: uppercase; letter-spacing: -4px; display: inline; }
+.banner { padding: 2em 0 0.3em; font-weight: 700; font-family: Impact, Arial, sans-serif; }
+.banner h1 { text-transform: uppercase; letter-spacing: -4px; display: inline; line-height: 1.1; }
 .banner, .banner .banner__header { display: inline; border-bottom: 10px solid black; }
