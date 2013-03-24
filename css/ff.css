@@ -941,3 +941,4 @@ h1, h2, h3, h4, h5, h6 { color: black; }
 body { /*background : #f9faf0 url(assets/images/100-90-5.png) repeat 0 0;*/ background: #ffaa30; }
 
 .banner { padding: 2em 0; font-weight: 700; font-family: Impact, Arial, sans-serif; }
+.banner h1 { text-transform: uppercase; letter-spacing: -4px; }
