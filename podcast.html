@@ -8,3 +8,9 @@ title: Podcast
 <p>Here be the podcasts. Currently only in Finnish</p>
 
 <p>Täältä löytyvät podcastit. Podcastit ovat suomeksi puhuttuja</p>
+
+<ul>
+    {% for podcasts in paginator.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+</ul>
