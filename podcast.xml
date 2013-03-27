@@ -1,0 +1,64 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Frontend Friday</title>
+
+        <link>http://ouluweb.github.com/</link>
+        <language>fi</language>
+
+        <copyright>&#xA9; 2013 Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</copyright>
+        <itunes:subtitle>Tommi P&auml;&auml;kk&ouml; ja Olli Aapro keskustelevat webist&auml; ja web-teknologiasta.</itunes:subtitle>
+        <itunes:author>Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</itunes:author>
+        <itunes:keywords>ouluweb, web design, web development</itunes:keywords>
+
+        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyv&auml; tapaaminen. T&auml;m&auml; podcast toimii kyseisen tapahtuman suomenkielisen&auml; audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</itunes:summary>
+        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyv&auml; tapaaminen. T&auml;m&auml; podcast toimii kyseisen tapahtuman suomenkielisen&auml; audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</description>
+
+
+        <itunes:owner>
+            <itunes:name>Tommi P&auml;&auml;kk&ouml;</itunes:name>
+            <itunes:email>tommi@nerd.fi</itunes:email>
+        </itunes:owner>
+
+        <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+
+        <itunes:category text="" />
+
+        <itunes:category text="Technology" />
+
+        <itunes:new-feed-url>http://ouluweb.github.com/podcast.xml</itunes:new-feed-url>
+
+        {% for post in site.categories.podcast limit:10 %}
+
+        <item>
+
+            <title>{{ post.title }}</title>
+
+            <itunes:author>Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</itunes:author>
+
+            <itunes:subtitle>Frontend Friday: {{ post.title }}</itunes:subtitle>
+
+            <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+
+            <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+
+            <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/x-m4a" />
+
+            <guid>{{ post.link }}</guid>
+
+            <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
+
+            <itunes:duration>{{ post.duration }}</itunes:duration>
+
+            <itunes:keywords></itunes:keywords>
+
+        </item>
+
+        {% endfor %}
+
+    </channel>
+
+</rss>
