@@ -10,17 +10,17 @@ layout: nil
         <link>http://ouluweb.github.com/</link>
         <language>fi</language>
 
-        <copyright>&#xA9; 2013 Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</copyright>
-        <itunes:subtitle>Tommi P&auml;&auml;kk&ouml; ja Olli Aapro keskustelevat webist&auml; ja web-teknologiasta.</itunes:subtitle>
-        <itunes:author>Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</itunes:author>
+        <copyright>&#xA9; 2013 Tommi Pääkkö &amp; Olli Aapro</copyright>
+        <itunes:subtitle>Tommi Pääkkö ja Olli Aapro keskustelevat webistä ja web-teknologiasta.</itunes:subtitle>
+        <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
         <itunes:keywords>ouluweb, web design, web development</itunes:keywords>
 
-        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyv&auml; tapaaminen. T&auml;m&auml; podcast toimii kyseisen tapahtuman suomenkielisen&auml; audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</itunes:summary>
-        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyv&auml; tapaaminen. T&auml;m&auml; podcast toimii kyseisen tapahtuman suomenkielisen&auml; audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</description>
+        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</itunes:summary>
+        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan tapaamisen aihe ja keskustellan aiheen vierestauml;kin.</description>
 
 
         <itunes:owner>
-            <itunes:name>Tommi P&auml;&auml;kk&ouml;</itunes:name>
+            <itunes:name>Tommi Pääkkö</itunes:name>
             <itunes:email>tommi@nerd.fi</itunes:email>
         </itunes:owner>
 
@@ -38,7 +38,7 @@ layout: nil
 
             <title>{{ post.title }}</title>
 
-            <itunes:author>Tommi P&auml;&auml;kk&ouml; &amp; Olli Aapro</itunes:author>
+            <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
 
             <itunes:subtitle>Frontend Friday: {{ post.title }}</itunes:subtitle>
 
