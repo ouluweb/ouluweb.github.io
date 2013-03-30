@@ -10,6 +10,11 @@ permalink : /podcast/
 
 <ul>
     {% for post in site.categories.podcast %}
-    <li class=podcast><a href="{{ post.url }}">{{ post.title }}</a> </li>
+    <li class=podcast>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.summary }}</p>
+        <p>Pituus : {{ post.duration }}<p>
+        <p><a href="{{ post.link }}" title="{{ post.title }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ post.title }}']);">Lataa podcast</a><p>
+    </li>
     {% endfor %}
 </ul>
