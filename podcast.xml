@@ -42,7 +42,7 @@ layout: nil
 
             <itunes:subtitle>Frontend Friday: {{ post.title }}</itunes:subtitle>
 
-            <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
+            <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 
             <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
 
