@@ -52,17 +52,21 @@
 
 @function gs-grid($prefix){
 
-  @if $prefix == mb	{ @return (99.84375); }
-  @if $prefix == m	{ @return (60.19393569,37.20189764); }
+  @if $prefix == m	{ @return (99.84375); }
+  @if $prefix == t	{ @return (60.19393569,37.20189764); }
+  @if $prefix == tb	{ @return (37.20189764,60.19393569); }
   @if $prefix == d	{ @return (46.29629675,28.61268454,17.6836113); }
+  @if $prefix == db	{ @return (17.6836113,28.61268454,46.29629675); }
 
 }
 
 @function gs-pxcols($prefix){
   
-  @if $prefix == mb	{ @return (false); }
-  @if $prefix == m	{ @return (false,false); }
+  @if $prefix == m	{ @return (false); }
+  @if $prefix == t	{ @return (false,false); }
+  @if $prefix == tb	{ @return (false,false); }
   @if $prefix == d	{ @return (false,false,false); }
+  @if $prefix == db	{ @return (false,false,false); }
 
 }
 
@@ -70,9 +74,11 @@
   
   $gutter: 0;
 
-  @if $prefix == mb	{ $gutter: 6.25; }
-  @if $prefix == m	{ $gutter: 2.60416667; }
+  @if $prefix == m	{ $gutter: 6.25; }
+  @if $prefix == t	{ $gutter: 2.60416667; }
+  @if $prefix == tb	{ $gutter: 2.60416667; }
   @if $prefix == d	{ $gutter: 3.7037037; }
+  @if $prefix == db	{ $gutter: 3.7037037; }
 
   @if $unit == true { @return #{$gutter + '%'}; }
   @else { @return $gutter; }
@@ -194,14 +200,28 @@
     @media only screen and (min-width: 1080px) { @content; }
   }
 
-  @if $prefix == m {
+  @if $prefix == db {
+    @if ($type == min) { @media only screen and (min-width: 1080px) { @content; } }
+    @if ($type == max) { @media only screen and (max-width: 1079px) { @content; } }
+    @if ($type == min-max) { @media only screen and (min-width: 1080px) and (max-width: 1079px) { @content; } }
+    @else { @media only screen and (min-width: 1080px) { @content; } }
+  }
+
+  @if $prefix == t {
     @if ($type == min) { @media only screen and (min-width: 768px) { @content; } }
     @if ($type == max) { @media only screen and (max-width: 1079px) { @content; } }
     @if ($type == min-max) { @media only screen and (min-width: 768px) and (max-width: 1079px) { @content; } }
     @else { @media only screen and (min-width: 768px) { @content; } }
   }
 
-  @if $prefix == mb {
+  @if $prefix == tb {
+    @if ($type == min) { @media only screen and (min-width: 768px) { @content; } }
+    @if ($type == max) { @media only screen and (max-width: 767px) { @content; } }
+    @if ($type == min-max) { @media only screen and (min-width: 768px) and (max-width: 767px) { @content; } }
+    @else { @media only screen and (min-width: 768px) { @content; } }
+  }
+
+  @if $prefix == m {
     @media only screen and (max-width: 767px) { @content; }
   }
 

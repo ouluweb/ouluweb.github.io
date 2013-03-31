@@ -1,0 +1,21 @@
+{% include header.html %}
+        <div class="gw ">
+            <div class="g db1 tb1 m-all">
+                <aside>
+                    <h2>Podcast</h2>
+                    <ul>
+                        <li>Tallennettu: {{ page.date | date: "%d.%m.%Y" }}
+                        <li><a href="{{ page.link }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ page.title }}']);">Lataa jakso</a>  
+                </aside>
+            </div>
+
+            <div class="g db2-db3 tb2 m-all">
+                <section class=main role=main>
+
+                    {{ content }}
+
+                </section>
+            </div>
+
+        </div>
+{% include footer.html %}
