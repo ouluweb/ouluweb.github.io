@@ -33,6 +33,13 @@ $serif-boolean : true;
     /*font-family : $font-family-sans;*/
 /*}*/
 
+// reset grid paddingi and margin
+.gw, .grid-wrapper {
+    margin-left : 0;
+}
+.g, .grid {
+    padding-left : 0;
+}
 
 
 body {
