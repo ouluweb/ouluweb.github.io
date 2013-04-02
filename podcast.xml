@@ -25,7 +25,9 @@ layout: nil
 
         <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
 
-        <itunes:category text="Technology" />
+        <itunes:category text="Technology">
+            <itunes:category text="Tech News" />
+        </itunes:catogory>
         <itunes:explicit>no</itunes:explicit>
 
 
