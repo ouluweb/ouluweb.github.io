@@ -26,6 +26,7 @@ layout: nil
         <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
 
         <itunes:category text="Technology" />
+        <itunes:explicit>no</itunes:explicit>
 
 
         {% for post in site.categories.podcast limit:10 %}
@@ -41,6 +42,7 @@ layout: nil
             <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 
             <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+            <itunes:explicit>no</itunes:explicit>
 
             <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/x-m4a" />
 
