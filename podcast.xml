@@ -6,17 +6,16 @@ layout: nil
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Frontend Friday</title>
-
         <link>http://ouluweb.github.com/</link>
         <language>fi</language>
 
         <copyright>&#xA9; 2013 Tommi Pääkkö &amp; Olli Aapro</copyright>
-        <itunes:subtitle>Tommi Pääkkö ja Olli Aapro keskustelevat webistä ja web-teknologiasta.</itunes:subtitle>
+        <itunes:subtitle>Keskustelua webistä ja web-teknologioista. Äänessä Tommi Pääkkö ja Olli Aapro.</itunes:subtitle>
         <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
         <itunes:keywords>ouluweb, web design, web development</itunes:keywords>
 
-        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aihesta ja aiheen vierestäkin.</itunes:summary>
-        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aihesta ja aiheen vierestäkin.</description>
+        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aiheesta ja aiheen vierestäkin.</itunes:summary>
+        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aiheesta ja aiheen vierestäkin.</description>
 
 
         <itunes:owner>
@@ -32,13 +31,13 @@ layout: nil
         {% for post in site.categories.podcast limit:10 %}
 
         <item>
-
             <title>{{ post.title }}</title>
+            <description>{{ post.content | xml_escape }}</description>
 
+            <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
             <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
 
-            <itunes:subtitle>Frontend Friday: {{ post.title }}</itunes:subtitle>
-
+            <itunes:subtitle>{{ post.content | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 
             <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
@@ -50,7 +49,6 @@ layout: nil
             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 
             <itunes:duration>{{ post.duration }}</itunes:duration>
-
             <itunes:keywords>ouluweb, oulu web, web design, grids, web grid systems, web grids, responsive design</itunes:keywords>
 
         </item>
