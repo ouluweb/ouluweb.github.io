@@ -26,11 +26,8 @@ layout: nil
 
         <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
 
-        <itunes:category text="" />
-
         <itunes:category text="Technology" />
 
-        <itunes:new-feed-url>http://ouluweb.github.com/podcast.xml</itunes:new-feed-url>
 
         {% for post in site.categories.podcast limit:10 %}
 
@@ -54,7 +51,7 @@ layout: nil
 
             <itunes:duration>{{ post.duration }}</itunes:duration>
 
-            <itunes:keywords></itunes:keywords>
+            <itunes:keywords>ouluweb, oulu web, web design, grids, web grid systems, web grids, responsive design</itunes:keywords>
 
         </item>
 
