@@ -27,7 +27,7 @@ layout: nil
 
         <itunes:category text="Technology">
             <itunes:category text="Tech News" />
-        </itunes:catogory>
+        </itunes:category>
         <itunes:explicit>no</itunes:explicit>
 
 
