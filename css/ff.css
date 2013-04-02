@@ -2848,12 +2848,12 @@ body {
 .site-nav {
   text-align: right; }
   .site-nav li {
-    margin: 0 0.5em; }
+    margin: 0 0.3em; }
   .site-nav a {
-    padding: .5em;
+    padding: 0.2em 0.5em;
     color: #000;
     text-decoration: underline;
     border-radius: 2px; }
     .site-nav a:hover {
-      background-color: #fff;
-      background-color: rgba(255, 255, 255, 0.5); }
+      background-color: #fdd39b;
+      /*background-color : rgba(255,255,255,.5);*/ }

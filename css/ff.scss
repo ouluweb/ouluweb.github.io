@@ -93,19 +93,19 @@ body {
     text-align : right;
 
     li {
-        margin : 0 .5em;
+        margin : 0 .3em;
     }
 
     a {
-        padding : .5em;
+        padding : .2em .5em;
         color: #000;
         text-decoration : underline;
 
         border-radius : 2px;
 
         &:hover {
-            background-color : #fff;
-            background-color : rgba(255,255,255,.5);
+            background-color : #fdd39b;
+            /*background-color : rgba(255,255,255,.5);*/
         }
 
     }
