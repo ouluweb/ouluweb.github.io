@@ -6,7 +6,7 @@ layout: nil
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Frontend Friday</title>
-        <link>http://ouluweb.github.com/</link>
+        <link>http://ouluweb.github.io/</link>
         <language>fi</language>
 
         <copyright>&#xA9; 2013 Tommi Pääkkö &amp; Olli Aapro</copyright>
@@ -23,7 +23,7 @@ layout: nil
             <itunes:email>tommi@nerd.fi</itunes:email>
         </itunes:owner>
 
-        <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+        <itunes:image href="http://ouluweb.github.io/assets/itunes.jpg" />
 
         <itunes:category text="Technology">
             <itunes:category text="Tech News" />
@@ -37,13 +37,13 @@ layout: nil
             <title>{{ post.title }}</title>
             <description>{{ post.content | xml_escape }}</description>
 
-            <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+            <itunes:image href="http://ouluweb.github.io/assets/itunes.jpg" />
             <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
 
             <itunes:subtitle>{{ post.content | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 
-            <itunes:image href="http://ouluweb.github.com/assets/itunes.jpg" />
+            <itunes:image href="http://ouluweb.github.io/assets/itunes.jpg" />
             <itunes:explicit>no</itunes:explicit>
 
             <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
