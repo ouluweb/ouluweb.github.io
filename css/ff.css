@@ -2845,6 +2845,25 @@ body {
     display: inline;
     border-bottom: 10px solid black; }
 
+.meetup-time {
+  display: inline-block;
+  padding-left: .4em; }
+
+.meetup-time__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+  line-height: 1; }
+
+.meetup-time__countdown {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 1.44;
+  line-height: 1; }
+
 .site-nav {
   text-align: right; }
   .site-nav li {
