@@ -428,7 +428,7 @@ h6 { @extend .zeta; @extend %hN; }
 p {
     & + p {
         //siblings indentation
-        text-indent: $indent-val;
+        /*text-indent: $indent-val;*/
     }
 }
 

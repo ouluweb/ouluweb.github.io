@@ -2619,7 +2619,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.65rem; }
 
 p + p {
-  text-indent: 1.5em; }
+  /*text-indent: $indent-val;*/ }
 
 pre code {
   white-space: -moz-pre-wrap;
