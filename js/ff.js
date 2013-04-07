@@ -41,7 +41,11 @@ $(document).ready( function() {
                 label += val.hours+"h "
             label += val.minutes+"m"
             //node.html( label );
-            node.innerText = label;
+            if(node.innerText) {
+                node.innerText = label;
+            } else {
+                node.textContent = label;
+            }
         },
         next_event = parse_datetime(d.getElementById('meetup-time').getAttribute('data-time')),
         countdown_node = d.getElementById('meetup-countdown');
