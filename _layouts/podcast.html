@@ -27,6 +27,19 @@
                         </p>
                     </noscript>
                 </aside>
+                {% else %}
+                <div id="disqus_thread"></div>
+                <script>
+                    (function(_d,_s,_t) {
+                        var dsq = _d.createElement(_s);
+                        dsq.async = true;
+                        dsq.src = '//' + _t + '.disqus.com/embed.js';
+                        (_d.getElementsByTagName('head')[0] || _d.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })(document,'script', 'frontendfriday');
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
                 {% endif %}
             </div>
 
