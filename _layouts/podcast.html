@@ -28,14 +28,17 @@
                     </noscript>
                 </aside>
                 {% else %}
+                <h2>Kommentoi</h2>
                 <div id="disqus_thread"></div>
                 <script>
-                    (function(_d,_s,_t) {
-                        var dsq = _d.createElement(_s);
+                     var disqus_shortname = 'frontendfriday';
+
+                    (function(d,s) {
+                        var dsq = d.createElement(s);
                         dsq.async = true;
-                        dsq.src = '//' + _t + '.disqus.com/embed.js';
-                        (_d.getElementsByTagName('head')[0] || _d.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })(document,'script', 'frontendfriday');
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })(document,'script');
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
