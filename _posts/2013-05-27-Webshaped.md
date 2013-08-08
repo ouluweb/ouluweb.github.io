@@ -1,7 +1,8 @@
 ---
 layout: podcast
 date: 2013-05-27 17:00:00
-title: #3 Webshaped
+title: Webshaped
+nro: 3
 category : podcast
 link: http://tommi.nerd.fi/podcast/3-Webshaped.mp3
 duration: 1:15:11
