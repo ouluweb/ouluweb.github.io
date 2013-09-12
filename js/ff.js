@@ -26,7 +26,7 @@ $(document).ready( function() {
         calculate_distance = function(to_date) {
             var now = new Date(),
                 dist = next_event - now;
-        
+
             return {
                 days: Math.floor((dist) / (1000*60*60*24)),
                 hours: Math.floor((dist) / (1000*60*60)) % 24,
@@ -51,7 +51,7 @@ $(document).ready( function() {
         countdown_node = d.getElementById('meetup-countdown');
         //next_event = parse_datetime( $('.next-event time').text() ),
         //countdown_node = $('.next-event .countdown');
-    
+
         if( calculate_distance(next_event).days >= 0 ) {
             set_countdown_label(calculate_distance( next_event ), countdown_node);
             setInterval( function() {
