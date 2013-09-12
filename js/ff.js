@@ -26,11 +26,18 @@ $(document).ready( function() {
         calculate_distance = function(to_date) {
             var now = new Date(),
                 dist = next_event - now;
-        
+
             return {
                 days: Math.floor((dist) / (1000*60*60*24)),
                 hours: Math.floor((dist) / (1000*60*60)) % 24,
                 minutes: Math.floor((dist) / (1000*60)) % 60
+            }
+        },
+        set_text_for_node = function(text, node) {
+            if(node.innerText) {
+                node.innerText = text;
+            } else {
+                node.textContent = text;
             }
         },
         set_countdown_label = function(val, node) {
@@ -40,22 +47,23 @@ $(document).ready( function() {
             if(val.hours > 0)
                 label += val.hours+"h "
             label += val.minutes+"m"
-            //node.html( label );
-            if(node.innerText) {
-                node.innerText = label;
-            } else {
-                node.textContent = label;
-            }
+            set_text_for_node(label, node);
         },
-        next_event = parse_datetime(d.getElementById('meetup-time').getAttribute('data-time')),
+        human_time = d.getElementById('meetup-time').getAttribute('data-time'),
+        next_event = parse_datetime(human_time),
         countdown_node = d.getElementById('meetup-countdown');
         //next_event = parse_datetime( $('.next-event time').text() ),
         //countdown_node = $('.next-event .countdown');
-    
+
         if( calculate_distance(next_event).days >= 0 ) {
             set_countdown_label(calculate_distance( next_event ), countdown_node);
             setInterval( function() {
                 set_countdown_label(calculate_distance( next_event ), countdown_node);
             }, 1000*30);
         }
+
+        addEvent('click', countdown_node, function() {
+          set_text_for_node(human_time, countdown_node);
+        }, false);
+
 });
