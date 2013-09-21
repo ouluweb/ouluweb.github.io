@@ -6,10 +6,13 @@
 }
 
 body {
-    font-family: 'Myriad Pro', sans-serif;
+    font-family: 'myriad-pro', 'Myriad Pro', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    padding: 48px 40px;
+    position: relative;
+    /*max-width: 1200px;
+    margin: auto;*/
+    padding: 48px 40px 1px 40px;
     color: #1a1a1b;
     background-color: #fc9e08;
     background: #fc9e08 -moz-linear-gradient(top, #fec608 0%, #fc9e08 100%);
@@ -24,40 +27,30 @@ body {
 }
 a {
     text-decoration: none;
-    color: #7e5204;
-    transition: color .2s ease;
+    color: rgb(192, 61, 0);
 }
 a:hover {
-    color: #1a1a1b;
-}
-a {
-    padding: 4px 4px 3px 4px;
-    color: rgba(0,0,0,.7);
-    background: rgba(0,0,0,0.1);
-}
-a:hover {
-    color: white;
-    background: #1a1a1b;
+    color: #D12200;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 h1 {
-    font-family: 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', serif;
     font-weight: 100;
     font-size: 42px;
     line-height: 52px;
     margin: 24px 0;
 }
 h2 {
-    font-family: 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', serif;
     font-weight: 100;
     font-size: 38px;
     line-height: 42px;
     margin: 24px 0;
 }
 h3 {
-    font-family: 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', serif;
     font-weight: 100;
     font-size: 32px;
     line-height: 35px;
@@ -86,15 +79,15 @@ small {
 }
 table {
     border-collapse: separate;
-    border-spacing: 2px;
+    border-spacing: 6px;
 }
 th, td {
 }
 
 
 .title {
-    font-family: 'Impact', 'Arial Narrow', sans-serif;
-    font-weight: normal;
+    font-family: 'jaf-bernino-sans-comp', 'Impact', 'Arial Narrow', sans-serif;
+    font-weight: 900;
     font-size: 126px;
     line-height: 115px;
     text-transform: uppercase;
@@ -112,6 +105,10 @@ th, td {
     height: 6px;
     border: 12px solid;
     border-width: 12px 0px;
+
+    bottom: -26px;
+    height: 7px;
+    border-width: 9px 0px;
 }
     .title a {
         color: inherit;
@@ -121,25 +118,29 @@ th, td {
         color: white;
     }
 
-.meetup-time {
-    font-family: 'Impact', 'Arial Narrow', sans-serif;
-    font-weight: normal;
-    font-size: 63px;
-    line-height: 63px;
-    text-transform: uppercase;
-    margin: 0 0 58px 0;
-}
-
 .site-nav {
+    font-family: 'museo-slab', 'Museo Slab', serif;
+    font-weight: 100;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    text-align: right;
     position: absolute;
     top: 56px;
     right: 24px;
 }
 
 .page-nav {
+    font-family: 'museo-slab', 'Museo Slab', serif;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
     float: right;
 }
 
+.nav {
+}
 .nav ul,
 .nav li {
     display: block;
@@ -148,16 +149,21 @@ th, td {
     padding: 0;
 }
 .nav a {
-    font-family: 'Museo Slab', serif;
-    font-weight: 100;
-    font-size: 42px;
-    line-height: 52px;
-    text-transform: uppercase;
     color: inherit;
     background: none;
 }
 .nav a:hover {
     color: white;
+}
+
+.meetup-time {
+    color: #D12200;
+}
+.meetup-time__title {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
 }
 
 .main {
@@ -169,5 +175,17 @@ th, td {
     padding: 18px 40px;
     border: 6px solid;
     border-width: 6px 0px;
-    margin: 0px -40px 24px -40px;
+    margin: 48px -40px 24px -40px;
+}
+
+@media (max-width: 780px) {
+    .site-nav {
+        position: static;
+        text-align: center;
+    }
+    .page-nav {
+        margin-top: 48px;
+        float: none;
+        text-align: left;
+    }
 }
