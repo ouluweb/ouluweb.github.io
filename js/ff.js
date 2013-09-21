@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000*30);
     }
 
-    addEvent('click', countdown_node, function() {
+    addEvent('mouseover', countdown_node, function() {
       set_text_for_node(human_time, countdown_node);
     }, false);
 
