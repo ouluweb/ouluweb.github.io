@@ -1,13 +1,21 @@
-{% include header.html %}
-        <div class="gw">
-            <div class="g d1 t1 m-all">
+<!doctype html>
+<html>
+    <head>
 
-                <section class=main role=main>
+        {% include head.html %}
 
-                    {{ content }}
+    </head>
+    <body>
 
-                </section>
+        {% include header.html %}
 
-            </div>
-        </div>
-{% include footer.html %}
+        <section class="main" role="main">
+
+            {{ content }}
+
+        </section>
+
+        {% include footer.html %}
+
+  </body>
+</html>
