@@ -6,14 +6,24 @@ permalink : /podcast/
 
 <h2>Podcasts</h2>
 
-<p>Täältä löytyvät podcastit. Podcastit ovat suomeksi puhuttuja. Halutessasi voit tilata syötteen suoraan omaan podcast-sovellukseesi <a href="http://feeds.feedburner.com/FrontendFriday">tästä</a>.</p>
-<p>Podcast löytyy myös Applen iTunes palvelusta nimellä <a href="https://itunes.apple.com/fi/podcast/frontend-friday/id630470814?mt=2">Frontend Friday</a></p>
+<p>
+  Täältä löytyvät podcastit. Podcastit ovat suomeksi puhuttuja. Halutessasi <a href="http://feeds.feedburner.com/FrontendFriday">tilaa syöte</a> suoraan omaan podcast-sovellukseesi.
+</p>
+<p>
+  Podcast löytyy myös Applen iTunes palvelusta nimellä <a href="https://itunes.apple.com/fi/podcast/frontend-friday/id630470814?mt=2">Frontend Friday</a>
+</p>
 
-<ul>
+<table>
+  <tbody>
     {% for post in site.categories.podcast %}
-    <li class=podcast>
-    <a href="{{ post.url }}">#{{ post.nro }} - {{ post.title }}</a> ::
-        <a href="{{ post.link }}" title="{{ post.title }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ post.title }}']);">Lataa podcast</a>
-    </li>
+      <tr>
+        <td>
+          <a href="{{ post.url }}">#{{ post.nro }} - {{ post.title }}</a>
+        </td>
+        <td>
+          <a href="{{ post.link }}" title="{{ post.title }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ post.title }}']);">Lataa podcast</a>
+        </td>
+      </tr>
     {% endfor %}
-</ul>
+  </tbody>
+</table>
