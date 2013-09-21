@@ -5,15 +5,6 @@
         Friday
     </a>
 </h1>
-<h2 id="meetup-time" class="meetup-time" data-time="{{ site.next_event }}">
-    <span class="meetup-time__title">
-        Next Meetup
-    </span>
-    <br>
-    <span class="meetup-time__countdown" id="meetup-countdown">
-      {{ site.next_event }}
-    </span>
-</h2>
 
 <nav class="nav site-nav">
     <ul>
@@ -21,5 +12,14 @@
         <!--<li><a href="meeting-notes.html">Meeting notes</a>-->
         <li><a href="/podcast/">Podcast</a></li>
         <li><a href="/about.html">About</a></li>
+        <li id="meetup-time" class="meetup-time" data-time="{{ site.next_event }}">
+            <small class="meetup-time__title">
+                Next Meetup
+            </small>
+            <br>
+            <span class="meetup-time__countdown" id="meetup-countdown">
+              {{ site.next_event }}
+            </span>
+        </li>
     </ul>
 </nav>
