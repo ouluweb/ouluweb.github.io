@@ -80,6 +80,10 @@ table {
   border-collapse: separate;
   border-spacing: 6px; }
 
+th, td {
+  text-align: left;
+  vertical-align: top; }
+
 .title {
   font-family: 'jaf-bernino-sans-comp', 'Impact', 'Arial Narrow', sans-serif;
   font-weight: 900;
@@ -94,14 +98,11 @@ table {
   content: '';
   position: absolute;
   top: auto;
-  bottom: -37px;
+  bottom: -26px;
   left: -40px;
   right: -40px;
-  height: 6px;
-  border: 12px solid;
-  border-width: 12px 0px;
-  bottom: -26px;
   height: 7px;
+  border: 12px solid;
   border-width: 9px 0px; }
 
 .title a {
@@ -164,11 +165,48 @@ table {
   margin: 48px -40px 24px -40px; }
 
 @media (max-width: 780px) {
+  body {
+    padding: 24px 12px 1px 12px; }
+
+  .title {
+    font-size: 56px;
+    line-height: 53px;
+    margin-bottom: 39px; }
+
+  .title:after {
+    left: -12px;
+    right: -12px; }
+
   .site-nav {
     position: static;
-    text-align: center; }
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500; }
+
+  .meetup-time__title {
+    font-size: 14px;
+    top: 9px; }
 
   .page-nav {
-    margin-top: 48px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: left;
     float: none;
-    text-align: left; } }
+    margin-top: 48px; }
+
+  .episode-list,
+  .episode-list tbody,
+  .episode,
+  .episode td {
+    display: block; }
+
+  .episode {
+    margin-bottom: 15px; }
+
+  .episode-title {
+    margin-bottom: 3px; }
+
+  .comments {
+    margin: 48px -12px 24px -12px; } }
