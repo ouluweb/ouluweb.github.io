@@ -1,50 +1,67 @@
-{% include header.html %}
-        <div class="gw ">
-            <div class="g db1 tb1 m-all">
-                <aside>
-                    <h2>Podcast</h2>
-                    <ul>
-                        <li>Tallennettu: {{ page.date | date: "%d.%m.%Y" }}
-                        <li><a href="{{ page.link }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ page.title }}']);">Lataa jakso</a>  
-                        <li><a href="http://feeds.feedburner.com/FrontendFriday" >RSS-syöte</a>  
-                        <li><a href="https://itunes.apple.com/fi/podcast/frontend-friday/id630470814?mt=2" >Podcast iTunesissa</a>  
-                </aside>
-            </div>
+<!doctype html>
+<html>
+    <head>
 
-            <div class="g db2-db3 tb2 m-all">
-                <section class=main role=main>
+        {% include head.html %}
 
-                    {{ content }}
+    </head>
+    <body>
 
-                </section>
+        {% include header.html %}
 
-                {% if page.branch-url %}
-                <aside class=branch>
-                    <script async src="http://embed-script.branch.com/assets/embed/embed.m.js?body=0" data-branch-embedid="{{ page.branch-id }}" ></script>
-                    <noscript>
-                        <p>
-                        <a href="{{ page.branch-url }}" class="branch-link" title="Opens in a new window" target="_blank">Discuss this article on Branch…</a>
-                        </p>
-                    </noscript>
-                </aside>
-                {% else %}
-                <h2>Kommentoi</h2>
-                <div id="disqus_thread"></div>
-                <script>
-                     var disqus_shortname = 'frontendfriday';
+        <nav class="nav page-nav">
+            <ul>
+                <li>
+                    Episodi {{ page.nro }}: {{ page.date | date: "%d.%m.%Y" }}
+                </li>
+                <li>
+                    <a href="{{ page.link }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ page.title }}']);">Lataa jakso</a>
+                </li>
+                <li>
+                    <a href="https://itunes.apple.com/fi/podcast/frontend-friday/id630470814?mt=2" >Podcast iTunesissa</a>
+                </li>
+                <li>
+                    <a href="http://feeds.feedburner.com/FrontendFriday" >RSS-syöte</a>
+                </li>
+            </ul>
+        </nav>
 
-                    (function(d,s) {
-                        var dsq = d.createElement(s);
-                        dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })(document,'script');
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <section id="c" class="main" role="main">
 
-                {% endif %}
-            </div>
+            {{ content }}
 
-        </div>
-{% include footer.html %}
+        </section>
+
+        {% if page.branch-url %}
+
+            <aside class="branch">
+                <script async src="http://embed-script.branch.com/assets/embed/embed.m.js?body=0" data-branch-embedid="{{ page.branch-id }}" ></script>
+                <noscript>
+                    <p>
+                    <a href="{{ page.branch-url }}" class="branch-link" title="Opens in a new window" target="_blank">Discuss this article on Branch…</a>
+                    </p>
+                </noscript>
+            </aside>
+
+        {% else %}
+
+            <div class="comments" id="disqus_thread"></div>
+            <script>
+                 var disqus_shortname = 'frontendfriday';
+
+                (function(d,s) {
+                    var dsq = d.createElement(s);
+                    dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(dsq);
+                })(document,'script');
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        {% endif %}
+
+
+        {% include footer.html %}
+    </body>
+</html>
