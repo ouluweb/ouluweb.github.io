@@ -14,8 +14,8 @@ layout: nil
         <itunes:author>Tommi Pääkkö &amp; Olli Aapro</itunes:author>
         <itunes:keywords>ouluweb, web design, web development</itunes:keywords>
 
-        <itunes:summary>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aiheesta ja aiheen vierestäkin.</itunes:summary>
-        <description>Frontend Friday on Oulussa toimiva web-teknologiaan ja -kehitykseen keskittyvä tapaaminen. Tämä podcast toimii kyseisen tapahtuman suomenkielisenä audiojatkeena, jossa kerrataan ja keskustellaan tapaamisen aiheesta ja aiheen vierestäkin.</description>
+        <itunes:summary>Frontend Friday on oululainen web-aiheisiin keskittyvä podcast. Aiheet liikkuvat suunnittelusta toteutuksen kautta optimointiin ja koodaamiseen. Kantaa otetaan ja välillä mennään freestylenä aiheen vierestä.</itunes:summary>
+        <description> Friday on oululainen web-aiheisiin keskittyvä podcast. Aiheet liikkuvat suunnittelusta toteutuksen kautta optimointiin ja koodaamiseen. Kantaa otetaan ja välillä mennään freestylenä aiheen vierestä.</description>
 
 
         <itunes:owner>
@@ -28,8 +28,7 @@ layout: nil
         <itunes:category text="Technology">
             <itunes:category text="Tech News" />
         </itunes:category>
-        <itunes:explicit>yes</itunes:explicit>
-
+        <itunes:explicit>no</itunes:explicit>
 
         {% for post in site.categories.podcast limit:10 %}
 
@@ -44,7 +43,7 @@ layout: nil
             <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 
             <itunes:image href="http://ouluweb.github.io/assets/itunes.jpg" />
-            <itunes:explicit>yes</itunes:explicit>
+            <itunes:explicit>{{ post.explicit }}</itunes:explicit>
 
             <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
 
@@ -53,7 +52,7 @@ layout: nil
             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
 
             <itunes:duration>{{ post.duration }}</itunes:duration>
-            <itunes:keywords>ouluweb, oulu web, web design, grids, web grid systems, web grids, responsive design</itunes:keywords>
+            <itunes:keywords>{{ post.keywords }}</itunes:keywords>
 
         </item>
 
