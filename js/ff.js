@@ -65,3 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }, false);
 
 });
+
+
+var player = document.getElementById('player');
+new MediaElement(player, { success : function (media) {
+    //media.play();
+}});

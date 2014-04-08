@@ -28,6 +28,10 @@
 
         <section id="c" class="main" role="main">
 
+            <audio id="player" class="mejs" controls="controls" preload="none">
+                <source src="{{ page.link }}" type="audio/mpeg; codecs=mp3">
+            </audio>
+
             {{ content }}
 
         </section>
