@@ -31,26 +31,21 @@ a {
 a:hover {
   color: #D12200; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; }
+h1, h2, h3 {
+  font-family: 'museo-slab', 'Museo Slab', serif;
+  font-weight: 100; }
 
 h1 {
-  font-family: 'museo-slab', 'Museo Slab', serif;
-  font-weight: 100;
   font-size: 42px;
   line-height: 52px;
   margin: 24px 0; }
 
 h2 {
-  font-family: 'museo-slab', 'Museo Slab', serif;
-  font-weight: 100;
   font-size: 38px;
   line-height: 42px;
   margin: 24px 0; }
 
 h3 {
-  font-family: 'museo-slab', 'Museo Slab', serif;
-  font-weight: 100;
   font-size: 32px;
   line-height: 35px;
   margin: 24px 0; }
@@ -58,6 +53,21 @@ h3 {
 h4, h5, h6 {
   font-weight: 600;
   margin: 12px 0; }
+
+.sub-heading {
+  margin-bottom: 0;
+  line-height: 1; }
+
+.meta {
+  margin-bottom: 12px;
+  margin-left: 1em; }
+  .meta time,
+  .meta .duration {
+    display: inline-block; }
+  .meta time {
+    padding-right: .5em; }
+  .meta .duration {
+    padding-left: .5em; }
 
 p, ul, ol, table, blockquote {
   margin: 0 0 24px 0;
@@ -163,6 +173,10 @@ th, td {
   border: 6px solid;
   border-width: 6px 0px;
   margin: 48px -40px 24px -40px; }
+
+.mejs {
+  margin-bottom: 24px;
+  width: 100%; }
 
 @media (max-width: 780px) {
   body {

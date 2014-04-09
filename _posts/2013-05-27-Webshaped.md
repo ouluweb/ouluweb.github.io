@@ -11,7 +11,6 @@ explicit: no
 keywords: webshaped, web conference, html, css, javascript
 
 ---
-# {{ page.title }}
 
 Olli ja Tommi kävivät Webshapedissa kuuntelemassa asiaa webistä. Tässä on lyhyt yhteenveto päivän tapahtumista. 
 
