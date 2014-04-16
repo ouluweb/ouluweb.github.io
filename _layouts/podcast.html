@@ -15,7 +15,7 @@
                     Episodi {{ page.nro }}: {{ page.date | date: "%d.%m.%Y" }}
                 </li>
                 <li>
-                    <a href="{{ page.link }}" onClick="_gaq.push(['_trackEvent', 'Podcast', 'Download', '{{ page.title }}']);">Lataa jakso</a>
+                    <a href="{{ page.link }}" onClick="ga('send', 'event', 'link', 'click', 'Podcast {{ page.title }}');">Lataa jakso</a>
                 </li>
                 <li>
                     <a href="https://itunes.apple.com/fi/podcast/frontend-friday/id630470814?mt=2" >Podcast iTunesissa</a>
