@@ -10,55 +10,59 @@ body {
     font-size: 16px;
     line-height: 24px;
     position: relative;
-    /*max-width: 1200px;
-    margin: auto;*/
+
     padding: 48px 40px 1px 40px;
     color: #1a1a1b;
     background-color: #fc9e08;
+
     background: #fc9e08 -moz-linear-gradient(top, #fec608 0%, #fc9e08 100%);
     background: #fc9e08 -webkit-linear-gradient(top, #fec608 0%,#fc9e08 100%);
     background: #fc9e08 -o-linear-gradient(top, #fec608 0%,#fc9e08 100%);
     background: #fc9e08 -ms-linear-gradient(top, #fec608 0%,#fc9e08 100%);
     background: #fc9e08 linear-gradient(to bottom, #fec608 0%,#fc9e08 100%);
-    /*background-attachment: fixed;
-    background-position: top left;*/
+
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 a {
     text-decoration: none;
     color: rgb(192, 61, 0);
 }
+
 a:hover {
     color: #D12200;
 }
+
 h1, h2, h3 {
-    font-family: 'museo-slab', 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', Georgia,  serif;
     font-weight: 100;
+    margin: 24px 0;
 }
+
 h1 {
     font-size: 42px;
     line-height: 52px;
-    margin: 24px 0;
 }
 h2 {
     font-size: 38px;
     line-height: 42px;
-    margin: 24px 0;
 }
 h3 {
     font-size: 32px;
     line-height: 35px;
-    margin: 24px 0;
 }
+
 h4, h5, h6 {
     font-weight: 600;
     margin: 12px 0;
 }
+
 .sub-heading {
     margin-bottom : 0;
     line-height : 1;
 }
+
 .meta {
     margin-bottom : 12px;
     margin-left : 1em;
@@ -79,28 +83,34 @@ p, ul, ol, table, blockquote {
     margin: 0 0 24px 0;
     padding: 0;
 }
+
 li {
     list-style-position: outside;
     margin-left: 24px;
 }
+
 ul li {
     list-style-type: square;
 }
+
 ol li {
     list-style-type: decimal;
 }
+
 small {
     font-size: 13px;
 }
+
 table {
     border-collapse: separate;
     border-spacing: 6px;
 }
+
 th, td {
     text-align: left;
     vertical-align: top;
+    padding : .2em;
 }
-
 
 .title {
     font-family: 'jaf-bernino-sans-comp', 'Impact', 'Arial Narrow', sans-serif;
@@ -110,29 +120,36 @@ th, td {
     text-transform: uppercase;
     position: relative;
     margin: 0 0 70px 0;
-}
-.title:after {
-    display: block;
-    content: '';
-    position: absolute;
-    top: auto;
-    bottom: -26px;
-    left: -40px;
-    right: -40px;
-    height: 7px;
-    border: 12px solid;
-    border-width: 9px 0px;
-}
-    .title a {
+
+    a {
         color: inherit;
         background: none;
+    
+        &:hover,
+        &:focus {
+            color: white;
+        }
     }
-    .title a:hover {
-        color: white;
+    
+    &:after {
+        display: block;
+        content: '';
+        position: absolute;
+        top: auto;
+        bottom: -26px;
+        left: -40px;
+        right: -40px;
+        height: 7px;
+        border: 12px solid;
+        border-width: 9px 0px;
     }
+}
+
+
+
 
 .site-nav {
-    font-family: 'museo-slab', 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', Georgia, serif;
     font-weight: 100;
     font-size: 42px;
     line-height: 52px;
@@ -144,7 +161,7 @@ th, td {
 }
 
 .page-nav {
-    font-family: 'museo-slab', 'Museo Slab', serif;
+    font-family: 'museo-slab', 'Museo Slab', Georgia, serif;
     font-weight: 100;
     font-size: 32px;
     line-height: 40px;
@@ -153,25 +170,31 @@ th, td {
 }
 
 .nav {
+
+    ul,
+    li {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: inherit;
+        background: none;
+        
+        &:hover,
+        &:focus {
+            color: white;
+        }
+    }
 }
-.nav ul,
-.nav li {
-    display: block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.nav a {
-    color: inherit;
-    background: none;
-}
-.nav a:hover {
-    color: white;
-}
+
 
 .meetup-time {
     color: #D12200;
 }
+
 .meetup-time__title {
     font-size: 20px;
     font-weight: 500;
@@ -198,18 +221,23 @@ th, td {
 }
 
 @media (max-width: 780px) {
+    
     body {
         padding: 24px 12px 1px 12px;
     }
+
     .title {
         font-size: 56px;
         line-height: 53px;
         margin-bottom: 39px;
-    }
-        .title:after {
+        
+        &:after {
             left: -12px;
             right: -12px;
         }
+
+    }
+
     .site-nav {
         position: static;
         text-align: left;
@@ -217,10 +245,12 @@ th, td {
         line-height: 30px;
         font-weight: 500;
     }
-        .meetup-time__title {
-            font-size: 14px;
-            top: 9px;
-        }
+
+    .meetup-time__title {
+        font-size: 14px;
+        top: 9px;
+    }
+    
     .page-nav {
         font-size: 18px;
         line-height: 26px;
@@ -229,18 +259,98 @@ th, td {
         float: none;
         margin-top: 48px;
     }
-    .episode-list,
-    .episode-list tbody,
-    .episode,
-    .episode td {
-        display: block;
-    }
-    .episode {
-        margin-bottom: 15px;
-    }
-        .episode-title {
-            margin-bottom: 3px;
+    
+    // .episode-list,
+    // .episode-list tbody,
+    // .episode td {
+    //     display: block;
+    // }
+    .episode-list {
+
+        // border : 1px solid #fff;
+        // border-top : none;
+        margin-left : -12px;
+        margin-right : -12px;
+
+        border-radius : 2px;
+
+        // This is crazy but fast hack
+        &,
+        tbody,
+        tr,
+        td {
+            display : block;
         }
+    }
+
+    .episode {
+
+        &:after {
+            content : " ";
+            display : table;
+        }
+
+        &:first-child {
+            border-top-left-radius : 2px;
+            border-top-right-radius : 2px;
+        }
+
+        &:last-child {
+            border-bottom-left-radius : 2px;
+            border-bottom-right-radius : 2px;
+        }
+
+
+        $bg : rgba(#fff, .25);
+        $bg2 : rgba(#fff, .05);
+
+        background-color : transparent;
+
+        background-image : -webkit-linear-gradient(top, $bg 0%, $bg2 100%);
+        background-image :    -moz-linear-gradient(top, $bg 0%, $bg2 100%);
+        background-image :     -ms-linear-gradient(top, $bg 0%, $bg2 100%);
+        background-image :      -o-linear-gradient(top, $bg 0%, $bg2 100%);
+        background-image :   linear-gradient(to bottom, $bg 0%, $bg2 100%);
+
+        
+        // margin-bottom : 15px;
+        // margin : 0 -12px 12px;
+        padding : 6px 12px 0;
+
+        // border-top : 1px solid #fff;
+
+        transition : background-color .2s linear; 
+
+        &:hover,
+        &:focus {
+            background-color : rgba(#fff, .1);
+        }
+
+        td {
+            padding : 0;
+        }
+    }
+
+    .episode-title {
+        font-size : 1.2em;
+    }
+    .episode-date {
+        line-height: 1;
+        font-size : .8em;
+        float : left;
+    }
+
+    .episode-file {
+        // float : right;
+        // padding : 6px 12px!important;
+        text-align: right;
+
+        a {
+            padding : 6px;
+        }
+    }
+
+    
     .comments {
         margin: 48px -12px 24px -12px;
     }
