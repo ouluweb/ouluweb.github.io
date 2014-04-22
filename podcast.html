@@ -21,7 +21,7 @@ permalink : /podcast/
           <a href="{{ post.url }}">#{{ post.nro }} - {{ post.title }}</a>
         </td>
         <td class="episode-date">
-          {{ post.date | date: "%d.%m.%Y" }} - {{ post.duration | escape }} min
+          {{ post.date | date: "%d.%m.%Y" }} - {{ post.duration }} min
         </td>
         <td class="episode-file">
           <a href="{{ post.link }}" title="{{ post.title }}" onClick="ga('send', 'event', 'link', 'click', 'Podcast {{ page.title }}');">Lataa jakso</a>

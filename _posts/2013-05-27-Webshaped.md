@@ -5,7 +5,7 @@ title: Webshaped
 nro: 3
 category : podcast
 link: https://s3-eu-west-1.amazonaws.com/frontend-friday/podcast/Frontend-Friday-Episode-3-Webshaped.mp3
-duration: 1:15:11
+duration: '1:15:11'
 length: 36188160
 explicit: no
 keywords: webshaped, web conference, html, css, javascript
