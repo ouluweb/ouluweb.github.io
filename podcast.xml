@@ -30,7 +30,7 @@ layout: nil
         </itunes:category>
         <itunes:explicit>no</itunes:explicit>
 
-        {% for post in site.categories.podcast limit:10 %}
+        {% for post in site.categories.podcast limit:50 %}
 
         <item>
             <title>#{{ post.nro }} : {{ post.title }}</title>
