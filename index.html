@@ -3,9 +3,27 @@ layout: default
 title: Home
 ---
 <h2>Frontend Friday - The Podcast</h2>
-
+<!--
 <p>Podcast haluaa kehittyä. Palautetta tarvitaan. <a href="https://docs.google.com/forms/d/1p3slCRuf7OQqAfD1uSB7PDt-Sx9qcPpRzIyUbWEefO4/viewform">Vastaa kyselyymme</a> tai anna palautetta haluamallasi tavalla.</p>
 <p>Kiittäen, Tommi ja Olli</p>
-
+-->
 <!--<h2>Viimeisin jakso</h2>-->
+
+<table class="episode-list">
+  <tbody>
+    {% for post in site.categories.podcast limit:3%}
+      <tr class="episode">
+        <td class="episode-title">
+          <a href="{{ post.url }}">#{{ post.nro }} - {{ post.title }}</a>
+        </td>
+        <td class="episode-date">
+          {{ post.date | date: "%d.%m.%Y" }} - {{ post.duration }} min
+        </td>
+        <td class="episode-file">
+          <a href="{{ post.link }}" title="{{ post.title }}" onClick="ga('send', 'event', 'link', 'click', 'Podcast {{ page.title }}');">Lataa jakso</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
