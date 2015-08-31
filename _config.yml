@@ -1,7 +1,7 @@
 auto : true
 server : true
 markdown : rdiscount
-url : http://ouluweb.github.io
+url : http://frontendfriday.fi
 
 # format for next_event: "dd.mm.yyyy hh:mm"
 next_event: 02.12.2013 17:00
