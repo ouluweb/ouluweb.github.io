@@ -1,6 +1,6 @@
 auto : true
 server : true
-markdown : rdiscount
+markdown: kramdown
 url : http://frontendfriday.fi
 
 # format for next_event: "dd.mm.yyyy hh:mm"
